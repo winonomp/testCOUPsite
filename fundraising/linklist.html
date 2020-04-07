@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+        <div class="nav-items">
+            <div id="logo"><a href="index.html"><img src="images/Fundraising COUP.png" alt="couplogo"></a></div>
+            <ul class="nav-links">
+                <li><a href="../onlinecourse.html">course</a></li>
+                <li id="rs"><a style="cursor: pointer; color: tomato;">Resources <i class="fas fa-angle-down"></i></a>
+                    <div class="box arrow-top">
+                        <ul>
+                          <li><a href="perfectpitchdeck.html">Pitch Deck</a></li>
+                          <li><a href="linklist.html" style="color: tomato;">Linklist</a></li>
+                          <li><a href="liquidation.html">Liquidation Preference</a></li>
+                          <li><a href="antidilution.html" >Anti-Dilution</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li><a href="../index.html">coup movement</a></li>
+                <li><button>inquire now</button></li>
+            </ul>
+    </div>
+    <div class="mobileItems" style="display: none;">
+        <div class="navHead">
+        <div id="logo"><a href=""><img src="images/Fundraising COUP.png" alt="couplogo" id="coupLogo"></a></div>
+        <div class="sideBarIcon">
+            <img src="images/Group@1x.svg">
+        </div>
+        </div>
+        <ul class="nav-linksMob" style="display: none;">
+            <li><a href="whycoup.html">why coup?</a></li>
+            <li id="abt"><a style="cursor: pointer;">About <i class="fas fa-angle-down"></i></a>
+                <div class="box arrow-top abtDrop">
+                    <ul>
+                      <li><a href="coupFramework.html" >Framework</a></li>
+                      <li><a href="themovement.html" >Movement</a></li>
+                      <li><a href="evidence.html">Evidence</a></li>
+                      <li><a href="thelecturer.html" >Lecturer</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li id="crs"><a style="cursor: pointer;">Course <i class="fas fa-angle-down"></i></a>
+                <div class="box arrow-top crsDrop">
+                    <ul>
+                      <li><a href="onlinecourse.html">Online course</a></li>
+                      <li><a href="presenceLearningShow.html">Presence Learning Show</a></li>
+                      <li><a href="fundraising/index.html">Fundraising COUP</a></li>
+                    </ul>
+                  </div></li>
+            <li><button>see the course</button></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+       
+    </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="row head">
+            <div class="headContent">
+                <h1>LINKLIST</h1>
+            </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <section id="attendantCode">
+        <div class="container">
+            <h3 style="text-align: center;">Every Fundraising COUP course attendant gets access to a highly valuable link list with curated, top-notch
+                fundraising resources:</h3>
+            <div id="formCode">
+                <form>
+                    <div>
+                    <input type="text" id="fname" name="code" placeholder="Enter code provided by Iskender Dirik">
+                    </div>
+                   <div class="Btn">
+                       <button>GET THE LINKLIST</button>
+                   </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="joinCoup">
+        <div class="container">
+           
+            <div class="row" id="ctaJoin">
+                <h2>join the fundraising coup</h2>
+                <div id="ctaJoinBtn">
+                    <button>INQUIRE NOW</button></div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <div class="row" id="footerLogo">
+                <img src="images/Fundraising COUP.png" alt="coup logo">
+            </div>
+            <div id="footeritems">
+                <ul class="footerLinks">
+                    <li><a href="">IMPRINT</a></li>
+                    <li><a href="">privacy policy</a></li>
+                    <li><a href="">terms and conditions</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div style="margin-top: 5%; color: grey;" id="creatorCopyright">
+                <p>This site is hand crafted by an ⨺ INFINITE DISRUPTION Task Force.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        var boolClick = true;
+        $(document).ready(function(){
+          $("#rs").click(function(){
+            if(boolClick === true){
+            $(".box").css({ opacity: 1 });
+            $()
+                boolClick = false;
+              }
+            else if(boolClick === false){
+            $(".box").css({ opacity: 0 });
+            $(".fas").css({ rotate: 90 });
+            boolClick = true;
+              }
+          });
+        });
+        </script>
+</body>
+</html>

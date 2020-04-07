@@ -1,0 +1,4540 @@
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .theSeriesImg{
+    display: flex;
+    justify-content: center;
+}
+  button{
+    cursor: pointer;
+}
+  #lecturerContent{
+      align-items: center;
+  }
+  .box {
+    width: 230px;
+    height: 120px;
+    background-color: black;
+    color: #fff;
+    padding: 50px 5px 50px 0px;
+    position: relative;
+    margin: 20px 0 0 -4%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #1f1f1f;
+    position: absolute;
+    opacity: 0;
+
+  }
+  #joinCoup{
+    background-image: url("images/Group 14@2x.svg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+  .box.arrow-top {
+    margin-top: 20px;
+ 
+  }
+
+  .box ul li a{
+      font-size: 14px;
+      
+  }
+  .box ul{
+    width: 100%;
+    list-style-type: none;
+}
+  .box.arrow-top:after {
+    
+    content: " ";
+    position: absolute;
+    margin-left: 60px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+  }
+
+.nav-links li a::after{
+    display: block;
+    opacity: 0;
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: #FF4F51;
+    text-align: center;
+}
+
+.nav-links li a:hover:after, .nav-links li a:hover{
+   opacity: 1;
+   transition: 0.5s;
+   width: 25px;
+   color: #FF4F51;
+}
+
+
+
+
+@font-face {
+    font-family: anton;
+    src: url(Anton.ttf);
+  }
+
+  
+  .brandImagesmobile{
+      display: none;
+  }
+body{
+    margin-top: -40px;
+    background-color: #181818;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("images/Group 14.png");
+
+
+}
+
+.nav .container{
+    padding: 3% 0 2% 0;
+}
+
+
+
+button:focus, input:focus {
+    outline: none!important;
+}
+
+button:hover, button:active{
+    background-color: rgb(216, 62, 64);
+}
+
+
+
+p a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.nav, header,footer{
+    padding-left: 10%;
+    padding-right: 10%;
+   
+
+    
+}
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo a img{
+    width: 131px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: inherit;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
+
+
+}
+
+.nav-links li a{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+span{
+    padding-left: 1%;
+    padding-right: 1%;
+   background-color: white;
+   color: black;
+    
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Anton' , sans-serif;
+    -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
+    letter-spacing: 0px;
+    font-weight: 500;
+ 
+}
+
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+
+h3{
+    font-size: 32px;
+        text-transform: uppercase;
+
+}
+
+.DoggyHutpitchDeck .container .h2{
+    margin-bottom: 10%;
+}
+
+
+p, a, li{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+
+
+
+
+.row, .coursesContents{
+
+    margin-top: 8%; 
+}
+
+.nav-links button{
+    margin-top: 0px;
+}
+
+.AbtIskenderBtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 1920px) and (max-width:2560px){
+
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -1%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 130%!important;
+    }
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    .nav, header,footer{
+        padding-left: 15%;
+        padding-right: 15%;
+       
+    
+        
+    }
+    body{
+        zoom: 1.6;
+    }
+
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 45px;
+        width: 119px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 50%;
+    }
+    
+    .focusTopic h3{
+        font-size: 18px;
+        transform: skewY(-1deg)!important;
+    }
+    section{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #longTitle{
+        width: 80%;
+    }
+    
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 339px;
+        height: 60px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .headImage img{
+        min-width: 480px;
+        max-width: 500px;
+       
+    }
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 2%;
+    }
+    
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 10% 5% 10%;
+    }
+    
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container,  #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%!important;
+    
+        
+    
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -7%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: 0%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 25px;
+    }
+    .LearningFacts{
+        display: inherit;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+        width: 570px;
+        height: 210px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 3% 0 6%;
+    }
+    
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 398px;
+    }
+    
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 16px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    .courseRow{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 7%;
+        width: 35%;
+        margin-right: 2%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .aboutlecturer{
+        margin-top: 6%;
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: left;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 200px;
+    }
+    .theBrandPartner:first-child img{
+        width: 120px;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 262px;
+    }
+    
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+    }
+/*desktop*/
+@media only screen and (min-width: 1400px) and (max-width:1680px){
+
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -1%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 130%!important;
+    }
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    .nav, header,footer{
+        padding-left: 15%;
+        padding-right: 15%;
+       
+    
+        
+    }
+    body{
+        zoom: 1.15;
+    }
+
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 45px;
+        width: 119px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 50%;
+    }
+    
+    .focusTopic h3{
+        font-size: 18px;
+        transform: skewY(-1deg)!important;
+    }
+    section{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #longTitle{
+        width: 80%;
+    }
+    
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 339px;
+        height: 60px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .headImage img{
+        min-width: 480px;
+        max-width: 500px;
+       
+    }
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 2%;
+    }
+    
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 10% 5% 10%;
+    }
+    
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container,  #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%!important;
+    
+        
+    
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -7%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: 0%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 25px;
+    }
+    .LearningFacts{
+        display: inherit;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+        width: 570px;
+        height: 210px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 3% 0 6%;
+    }
+    
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 398px;
+    }
+    
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 16px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    .courseRow{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 7%;
+        width: 35%;
+        margin-right: 2%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .aboutlecturer{
+        margin-top: 6%;
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: left;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 200px;
+    }
+    .theBrandPartner:first-child img{
+        width: 120px;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 262px;
+    }
+    
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+    }
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -1%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 130%!important;
+    }
+header .container{
+    display: grid;
+    
+    grid-template-areas: 
+        "head ."
+        "brands .";
+
+}
+
+#longTitle{
+    width: 80%;
+}
+.focusTopic{
+    background-color: #FF4F51;
+    text-align: center;
+    transform: skewY(-3deg);
+    height: 45px;
+    width: 119px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.focusTopic h3{
+    font-size: 18px;
+    transform: skewY(-1deg)!important;
+}
+button{
+    background-color: #FF4F51;
+    width: 202px;
+    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 50px;
+    margin-top: 48px;
+    letter-spacing: 2px;
+}
+
+#pdfBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 339px;
+    height: 60px;
+}
+.headImage{
+    display: inherit;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headImage img{
+    min-width: 480px;
+    max-width: 500px;
+   
+}
+.headContent{
+    width: 100%;
+   
+  }
+
+  .headContent h1{
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: uppercase;
+    
+  }
+
+  .headContent p{
+     width: 470px;
+
+  }
+
+
+#AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-top: 5%;
+}
+
+.theLecturer{
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+}
+
+#AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+    transform: skewY(4deg);
+}
+.DoggyHutpitchDeck .container{
+    padding: 8% 10% 5% 10%;
+}
+
+#introDesc{
+    margin-top: 8%;
+}
+.pitchDeckImg{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.madeUpStartup, .commentContent, .guide{
+    margin-top: 10%;
+}
+
+#AbtAntiDilution .container,  #attendantCode .container{
+    padding-top: 10%;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+#formCode form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#formCode form div:first-child, .Btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+input{
+    width: 430px;
+    height: 60px;
+    border: 1.2px solid #8A8B91;
+    border-radius: 50px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.head{
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.seperator{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 1px;
+    transform: skewY(-4deg);
+    margin-top: 15%;
+    margin-bottom: 15%;
+    
+  
+}
+
+.seperator2{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 1px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+  
+}
+
+
+.quotes, .pitchDeckExample .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%!important;
+}
+
+.theSeries{
+    margin-top: 15%;
+}
+
+.tandaPetik{
+    position: absolute;
+    z-index: 1;
+    margin-top: -10%;
+}
+
+.theQuote{
+    margin-top: 14%;
+    width: 80%;
+    
+}
+.someGeneralThoughts .quotes .tandaPetik{
+    margin-top: 0%;
+}
+.QuoteFromImg img{
+    width: 72px;
+}
+
+.theQuote p{
+    font-family: 'roboto', sans-serif;
+    font-size: 32px;
+    line-height: 48px!important;
+   
+}
+
+.theQuote h5{
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+}
+
+.quote2{
+    width: 80%;
+}
+
+.EnjoyLearning{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.EnjoyLearning h2{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.LearningDesc h3{
+    transform: skewY(3deg);
+    font-size: 25px;
+}
+.LearningFacts{
+    display: inherit;
+    justify-content: space-evenly;
+}
+
+.LearningDesc{
+    background-image: url("images/Group 14@2x.svg");
+    background-size: cover;
+    background-color: #181818;
+    width: 570px;
+    height: 210px;
+    margin-right: 2%;
+    transform: skewY(-3deg);
+    display: flex;
+    align-items: center;
+    padding: 0 3% 0 6%;
+}
+
+.pop{
+    display: inherit;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pop img{
+    width: 398px;
+}
+
+.socialMedia{
+    margin-top: 12%;
+    margin-bottom: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.jobPosition{
+    font-size: 14px!important;
+    color: #8A8B91;
+    
+}
+.jobPosition a{
+    color: grey;
+    font-size: 14px;
+}
+
+.pitchDeckMaterials li a{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.frameworkBtns2{
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+}
+.frameworkBtns2 button{
+    width: 267px;
+    height: 60px;
+
+}
+
+.coupFramework{
+    text-align: center;
+    padding-top: 10%;
+
+    h2{
+        font-size: 32px;
+    }
+}
+
+.frameworkBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 4px;
+    width: 354px;
+    height: 60px;
+}
+
+#frameworkImg{
+display: flex;
+justify-content: center;
+}
+
+#frameworkImg img{ 
+   width: 530px;
+    }
+
+.courseRow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.parCol{
+    background-color: #181818;
+    transform: skewY(-3deg);
+    padding: 5% 4% 5% 7%;
+    width: 35%;
+    margin-right: 2%;
+}
+
+.parCol h3, .parCol ul, .parCol p{
+    transform: skewY(3deg);
+    width: 90%;
+}
+.titleTheCoup p, .titleOverview P{
+    text-align : center;
+}
+#coupAbr{
+    margin-top: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    
+}
+#coupAbr h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+#coupAbr h2{
+    line-height: 50px;
+    color: grey;
+    text-transform: uppercase;
+}
+#coupAbr h2 span{
+    color: white;
+    background-color: transparent;
+    padding: 0;
+}
+#lecturerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.aboutlecturer{
+    margin-top: 6%;
+}
+.aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+    
+}
+
+.aboutlecturer p{
+    text-transform: capitalize;
+}
+
+.aboutlecturer button{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 212px;
+}
+.brandPartner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.theBrandPartner{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.theBrandPartner img{
+    width: 200px;
+}
+.theBrandPartner:first-child img{
+    width: 120px;
+}
+
+
+#joinCoup{
+    transform: skewY(-4deg);
+    background-color: #FF4F51;
+    background-image: url("images/Group 14.png");
+  
+    padding-top: 10%;
+    padding-bottom: 10%;
+ 
+}
+
+#ctaJoin{
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+}
+
+
+#ctaJoin h2{
+    margin: 0;
+}
+#ctaJoinBtn button{
+    margin-top: 25px;
+    width: 197px;
+    background-color: white;
+    color: #FF4F51;
+}
+#ctaJoinBtn{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  
+}
+#joinCoup .container{
+    transform: skewY(4deg);
+}
+
+footer .container{
+    display: block;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#footerLogo {
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo img{
+    width: 262px;
+}
+
+#footeritems{
+    padding: 5% 25% 0 22%;
+}
+
+#footeritems ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -10%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 110%!important;
+    }
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+
+  
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 45px;
+        width: 119px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 40%;
+    }
+    
+    .focusTopic h3{
+        font-size: 18px;
+        transform: skewY(-1deg)!important;
+    }
+    #longTitle{
+        width: 100%;
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 339px;
+        height: 60px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .headImage img{
+        width: calc(80% + 100px);
+       
+    }
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 460px;
+    
+      }
+    
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 10% 5% 8%;
+    }
+    
+    .introDoggyHut .pitchDeckImg:first-child .theImg img{
+        width: 700px;
+    }
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container,  #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: flex;
+        justify-content: space-between;
+    
+        
+    
+    }
+    .theSeriesImg img{
+        width: 100%;
+    }
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -10%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: 0%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 25px;
+    }
+    .LearningFacts{
+        display: inherit;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+        width: 570px;
+        height: 210px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 3% 0 6%;
+    }
+    
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 398px;
+    }
+    
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 16px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    .courseRow{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 7%;
+        width: 35%;
+        margin-right: 2%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .aboutlecturer{
+        margin-top: 6%;
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: left;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 200px;
+    }
+    .theBrandPartner:first-child img{
+        width: 120px;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 262px;
+    }
+    
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #coupLogo{
+        width: 70%;
+    }
+        header .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "head ."
+                "brands .";
+        
+        }
+        .focusTopic{
+            background-color: #FF4F51;
+            text-align: center;
+            transform: skewY(-3deg);
+            height: 45px;
+            width: 119px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            margin-left: 50%;
+        }
+        
+        .focusTopic h3{
+            font-size: 18px;
+            transform: skewY(-1deg)!important;
+        }
+        #longTitle{
+            font-size: 62px;
+        }
+        
+        button{
+            background-color: #FF4F51;
+            width: 202px;
+            height: 60px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            border: transparent;
+            border-radius: 50px;
+            margin-top: 48px;
+            letter-spacing: 2px;
+        }
+        
+        #pdfBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            width: 339px;
+            height: 60px;
+        }
+        .headImage{
+            grid-area: image;
+            display: inherit;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .headImage img{
+            min-width: 480px;
+            max-width: 500px;
+           
+        }
+        .headContent{
+            width: 100%;
+            grid-area: contentz;
+           
+          }
+        
+          .headContent h1{
+            font-size: 72px;
+            line-height: 72px;
+            text-transform: uppercase;
+            
+          }
+        
+          .headContent p{
+             width: 470px;
+        
+          }
+        
+        
+        #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            padding-top: 5%;
+            padding-bottom: 10%;
+            margin-top: 5%;
+        }
+        
+        .theLecturer{
+            padding-top: 2%;
+            padding-bottom: 10%;
+            margin-top: 10%;
+        }
+        
+        #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+            transform: skewY(4deg);
+        }
+        .DoggyHutpitchDeck .container{
+            padding: 8% 6% 5% 6%;
+        }
+        
+        #introDesc{
+            margin-top: 8%;
+        }
+        .pitchDeckImg{
+            margin-top: 8%;
+            margin-bottom: 2%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .madeUpStartup, .commentContent, .guide{
+            margin-top: 10%;
+        }
+        
+        #AbtAntiDilution .container,  #attendantCode .container{
+            padding-top: 10%;
+            padding-right: 8%;
+            padding-left: 8%;
+        }
+        
+        #formCode form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        
+        #formCode form div:first-child, .Btn{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        
+        input{
+            width: 430px;
+            height: 60px;
+            border: 1.2px solid #8A8B91;
+            border-radius: 50px;
+            background-color: transparent;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+        }
+        
+        .head{
+            grid-area: head;
+            display: grid;
+            grid-template-areas: "image"
+            "contentz";
+            justify-content: space-between;
+        
+            
+        
+        }
+        .theSeriesImg img{
+            width: 100%;
+        }
+        .seperator{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            transform: skewY(-4deg);
+            margin-top: 15%;
+            margin-bottom: 15%;
+            
+          
+        }
+        
+        .seperator2{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            margin-top: 2%;
+            margin-bottom: 4%;
+            
+          
+        }
+        
+        
+        .quotes, .pitchDeckExample .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%!important;
+        }
+        
+        .theSeries{
+            margin-top: 15%;
+        }
+        
+        .tandaPetik{
+            position: absolute;
+            z-index: 1;
+            margin-top: -10%;
+        }
+        
+        .theQuote{
+            margin-top: 14%;
+            width: 80%;
+            
+        }
+        .someGeneralThoughts .quotes .tandaPetik{
+            margin-top: 0%;
+        }
+        .QuoteFromImg img{
+            width: 72px;
+        }
+        
+        .theQuote p{
+            font-family: 'roboto', sans-serif;
+            font-size: 32px;
+            line-height: 48px!important;
+           
+        }
+        
+        .theQuote h5{
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .quote2{
+            width: 80%;
+        }
+        
+        .EnjoyLearning{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .EnjoyLearning h2{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        
+        .LearningDesc h3{
+            transform: skewY(3deg);
+            font-size: 18px;
+        }
+        .LearningFacts{
+            display: inherit;
+            justify-content: space-evenly;
+        }
+        
+        .LearningDesc{
+            background-image: url("images/Group 14@2x.svg");
+            background-size: cover;
+            background-color: #181818;
+            width: 570px;
+            height: 170px;
+            margin-right: 2%;
+            transform: skewY(-3deg);
+            display: flex;
+            align-items: center;
+            padding: 0 3% 0 6%;
+        }
+        
+        .pop{
+            display: inherit;
+            justify-content: center;
+            margin-top: 5%;
+        }
+        .pop img{
+            width: 398px;
+        }
+        
+        .theImg img{
+            
+                width: 100%;
+                max-width: 500px;
+            
+        }
+        .socialMedia{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 50%;
+            padding: 0 10% 0 10%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .jobPosition{
+            font-size: 14px!important;
+            color: #8A8B91;
+            
+        }
+        .jobPosition a{
+            color: grey;
+            font-size: 14px;
+        }
+        
+        .pitchDeckMaterials li a{
+            font-size: 16px;
+            font-family: 'roboto', sans-serif;
+            text-decoration: underline;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+        
+        .frameworkBtns2{
+            margin-top: -10%;
+            display: flex;
+            justify-content: center;
+        }
+        .frameworkBtns2 button{
+            width: 267px;
+            height: 60px;
+        
+        }
+        
+        .coupFramework{
+            text-align: center;
+            padding-top: 10%;
+        
+            h2{
+                font-size: 32px;
+            }
+        }
+        
+        .frameworkBtn{
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 4px;
+            width: 354px;
+            height: 60px;
+        }
+        
+        #frameworkImg{
+        display: flex;
+        justify-content: center;
+        }
+        
+        #frameworkImg img{ 
+           width: 530px;
+            }
+        
+        .courseRow{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 6%;
+            flex-wrap: wrap;
+        }
+        
+        .parCol{
+            background-color: #181818;
+            transform: skewY(-3deg);
+            padding: 5% 4% 5% 15%;
+            width: 70%;
+            margin-right: 2%;
+            margin-bottom: 8%;
+        }
+        
+        .parCol h3, .parCol ul, .parCol p{
+            transform: skewY(3deg);
+            width: 90%;
+        }
+        .titleTheCoup p, .titleOverview P{
+            text-align : center;
+        }
+        #coupAbr{
+            margin-top: 20%;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            padding-left: 18%;
+            padding-right: 18%;
+            
+        }
+        #coupAbr h3{
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        #coupAbr h2{
+            line-height: 50px;
+            color: grey;
+            text-transform: uppercase;
+        }
+        #coupAbr h2 span{
+            color: white;
+            background-color: transparent;
+            padding: 0;
+        }
+        #lecturerContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+           
+        }
+        .aboutlecturer{
+            margin-top: -10%;
+            display: inline-grid;
+            justify-items: center;
+
+        }
+        .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+            margin: 0px 0px 10px 0px;
+            text-transform: uppercase;
+            text-align: center;
+            
+        }
+        
+        .aboutlecturer p{
+            text-transform: capitalize;
+        }
+        
+        .aboutlecturer button{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            width: 212px;
+        }
+        .brandPartner{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 10%;
+        }
+        .theBrandPartner{
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+        }
+        .theBrandPartner img{
+            width: 150px;
+        }
+        .theBrandPartner:first-child img{
+            width: 100px;
+        }
+        
+        
+        #joinCoup{
+            transform: skewY(-4deg);
+            background-color: #FF4F51;
+            background-image: url("images/Group 14.png");
+          
+            padding-top: 10%;
+            padding-bottom: 10%;
+         
+        }
+        
+        #ctaJoin{
+            display: block;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        
+        #ctaJoin h2{
+            margin: 0;
+        }
+        #ctaJoinBtn button{
+            margin-top: 25px;
+            width: 197px;
+            background-color: white;
+            color: #FF4F51;
+        }
+        #ctaJoinBtn{
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+        }
+        #joinCoup .container{
+            transform: skewY(4deg);
+        }
+        
+        footer .container{
+            display: block;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        
+        #footerLogo {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #footerLogo img{
+            width: 232px;
+        }
+        
+        #footeritems{
+            padding: 5% 10% 0 8%;
+        }
+        
+        #footeritems ul{
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            list-style-type: none;
+            
+        }
+        
+        li a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+        }
+}
+@media only screen and (min-width: 600px) and (max-width:767px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12%;
+    }
+    #coupLogo{
+        width: 70%;
+    }
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 45px;
+        width: 119px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 50%;
+    }
+    
+    .focusTopic h3{
+        font-size: 18px;
+        transform: skewY(-1deg)!important;
+    }
+    #longTitle{
+        font-size: 48px;
+    }
+    
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 339px;
+        height: 60px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        grid-area: image;
+    }
+    
+    .headImage img{
+        min-width: 480px;
+        max-width: 500px;
+       
+    }
+    .headContent{
+        width: 100%;
+        grid-area: contentz;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    #AbtFundraising .container .quotes .theQuote p{
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    #AbtFundraising .container .quotes .tandaPetik{
+        margin-top: -25%;
+    }
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 6% 5% 6%;
+    }
+    
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container,  #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: grid;
+        grid-template-areas: "image"
+        "contentz";
+        justify-content: space-between;
+
+    }
+    .theSeriesImg img{
+        width: 100%;
+    }
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -10%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: 0%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 25px;
+    }
+    .LearningFacts{
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+   
+        height: 210px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 3% 0 6%;
+        margin-top: 5%;
+    }
+    
+    .pitchDeckPict img{
+        width: 80%;
+    }
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 398px;
+    }
+    
+    .theImg img{
+        
+            width: 100%;
+            max-width: 500px;
+        
+    }
+    .socialMedia{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 16px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    .courseRow{
+        display: flex;
+            justify-content: space-evenly;
+            margin-top: 6%;
+            flex-wrap: wrap;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 15%;
+            width: 80%;
+            margin-right: 2%;
+            margin-bottom: 8%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .aboutlecturer{
+        margin-top: -10%;
+        display: inline-grid;
+        justify-items: center;
+
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 100px;
+    }
+    .theBrandPartner:first-child img{
+        width: 80px;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+        font-size: 45px!important;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 232px;
+    }
+    
+    #footeritems{
+        padding: 5% 10% 0 8%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: -10%;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width:599px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20%;
+    }
+    #coupLogo{
+        width: 70%;
+    }
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    h2{
+        font-size: 32px!important;
+    }
+
+
+    h3{
+        font-size: 22px!important;
+    }
+
+    .contentList li{
+        font-size: 14px;
+    }
+    .iskenderImg img{
+        width: 70%;
+    }
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 40px;
+        width: 119px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 40%;
+    }
+    
+    .focusTopic h3{
+        font-size: 16px!important;
+        transform: skewY(-1deg)!important;
+    }
+    #longTitle{
+        font-size: 48px;
+    }
+    .commentContent h3 br{
+        display: block!important;
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 300px;
+        height: 60px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        grid-area: image;
+    }
+    
+    .headImage img{
+        width: 100%;
+       
+    }
+    .headContent{
+        width: 100%;
+        grid-area: contentz;
+       
+      }
+    
+      .headContent h1{
+        font-size: 62px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .pitchDeckPict img{
+          width: 90%;
+      }
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 6% 5% 6%;
+    }
+    
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container,  #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: grid;
+        grid-template-areas: "image"
+        "contentz";
+        justify-content: space-between;
+
+    }
+    .theSeriesImg img{
+        width: 100%;
+    }
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -40%;
+        width: 50%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: -10%;
+        width: 50%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 22px;
+        line-height: 32px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 20px;
+    }
+    .LearningFacts{
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+   
+        height: 180px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 3% 0 6%;
+        margin-top: 5%;
+    }
+    
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 300px;
+    }
+    
+    .theImg img{
+        
+            width: 100%;
+            max-width: 500px;
+        
+    }
+    .socialMedia{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 16px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+        .courseRow{
+            display: flex;
+                justify-content: space-evenly;
+                margin-top: 6%;
+                flex-wrap: wrap;
+        }
+        
+        .parCol{
+            background-color: #181818;
+            transform: skewY(-3deg);
+            padding: 5% 4% 5% 15%;
+                width: 100%;
+                margin-right: 2%;
+                margin-bottom: 8%;
+        }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .aboutlecturer{
+        margin-top: -15%;
+        display: inline-grid;
+        justify-items: center;
+
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 5px 0px;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 130px;
+    }
+    .theBrandPartner:first-child img{
+        width: 80px;
+    }
+
+    .theBrandPartner:last-child img{
+        margin-top: 18%;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+        font-size: 45px!important;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 170px;
+    }
+    
+    #creatorCopyright p{
+        font-size: 12px;
+    }
+    #footeritems{
+        padding: 5% 0% 0 0%;
+    }
+    
+    .footerLinks li a{
+        font-size: 12px;
+    }
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: -7%;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width:374px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24%;
+    }
+    #coupLogo{
+        width: 70%;
+    }
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+
+    .theSeriesImg img{
+        width: 100%;
+    }
+    .focusTopic{
+        background-color: #FF4F51;
+        text-align: center;
+        transform: skewY(-3deg);
+        height: 30px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 8%;
+    }
+    
+    .focusTopic h3{
+        font-size: 12px!important;
+        transform: skewY(-1deg)!important;
+    }
+
+    .contentList li{
+        font-size: 12px;
+    }
+
+    .contentList{
+        width: 70%!important;
+    }
+    h2{
+        font-size: 32px!important;
+    }
+
+    h1{
+        font-size: 48px!important;
+    }
+
+    h3{
+        font-size: 22px!important;
+    }
+    #longTitle{
+        font-size: 48px;
+    }
+    .commentContent h3 br{
+        display: block!important;
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    #pdfBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        grid-area: image;
+    }
+    
+    .headImage img{
+        width: 100%;
+       
+    }
+    .headContent{
+        width: 100%;
+        grid-area: contentz;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+    
+    
+    #AbtFundraising, .pitchDeckExample, #AbtAntiDilution, #attendantCode, .DoggyHutpitchDeck{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    .theLecturer{
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #AbtFundraising .container .quotes .theQuote p{
+        font-size: 16px;
+    }
+    #AbtFundraising .container .quotes .tandaPetik{
+        width: 40%;
+        margin-top: -60%;
+    }
+    #AbtFundraising .container .quotes{
+        margin-top: 8%!important;
+    }
+    #AbtFundraising .container, .pitchDeckExample .container, #AbtAntiDilution .container, #attendantCode .container, .DoggyHutpitchDeck .container{
+        transform: skewY(4deg);
+    }
+    .DoggyHutpitchDeck .container{
+        padding: 8% 6% 5% 6%;
+    }
+    
+    #introDesc{
+        margin-top: 8%;
+    }
+    .pitchDeckImg{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .madeUpStartup, .commentContent, .guide{
+        margin-top: 10%;
+    }
+    
+    #AbtAntiDilution .container{
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #attendantCode .container{
+        padding-top: 10%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    
+    #formCode form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    #formCode form div:first-child, .Btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    input{
+        width: 430px;
+        height: 60px;
+        border: 1.2px solid #8A8B91;
+        border-radius: 50px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .head{
+        grid-area: head;
+        display: grid;
+        grid-template-areas: "image"
+        "contentz";
+        justify-content: space-between;
+
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 15%;
+        margin-bottom: 15%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    
+    
+    .quotes, .pitchDeckExample .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .theSeries{
+        margin-top: 15%;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -50%;
+        width: 50%;
+    }
+    
+    .theQuote{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .someGeneralThoughts .quotes .tandaPetik{
+        margin-top: -27%;
+        width: 50%;
+    }
+    .QuoteFromImg img{
+        width: 72px;
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 22px;
+        line-height: 30px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quote2{
+        width: 80%;
+    }
+    
+    .EnjoyLearning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .EnjoyLearning h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .LearningDesc h3{
+        transform: skewY(3deg);
+        font-size: 16px!important;
+    }
+    .LearningFacts{
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .LearningDesc{
+        background-image: url("images/Group 14@2x.svg");
+        background-size: cover;
+        background-color: #181818;
+   
+        height: 150px;
+        margin-right: 2%;
+        transform: skewY(-3deg);
+        display: flex;
+        align-items: center;
+        padding: 0 5% 0 8%;
+        margin-top: 5%;
+    }
+    
+    .pop{
+        display: inherit;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .pop img{
+        width: 200px;
+    }
+    
+    .theImg img{
+        
+            width: 100%;
+            max-width: 500px;
+        
+    }
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 14px!important;
+        color: #8A8B91;
+        
+    }
+    .jobPosition a{
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .pitchDeckMaterials li a{
+        font-size: 14px;
+        font-family: 'roboto', sans-serif;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    
+        .courseRow{
+            display: flex;
+                justify-content: space-evenly;
+                margin-top: 6%;
+                flex-wrap: wrap;
+        }
+        
+        .parCol{
+            background-color: #181818;
+            transform: skewY(-3deg);
+            padding: 5% 4% 5% 15%;
+                width: 100%;
+                margin-right: 2%;
+                margin-bottom: 8%;
+        }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .aboutlecturer{
+        margin-top: -15%;
+        display: inline-grid;
+        justify-items: center;
+
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 5px 0px;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    .pitchDeckPict img{
+        width: 90%;
+    }
+    .iskenderImg img{
+        width: 80%;
+    }
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    .brandPartner{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    .theBrandPartner{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .theBrandPartner img{
+        width: 130px;
+    }
+    .theBrandPartner:first-child img{
+        width: 80px;
+    }
+
+    .theBrandPartner:last-child img{
+        margin-top: 18%;
+    }
+    
+    
+    #joinCoup{
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 197px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 170px;
+    }
+    
+    #creatorCopyright p{
+        font-size: 12px;
+    }
+    #footeritems{
+        padding: 5% 15% 0 0%;
+    }
+    
+    .footerLinks li a{
+        font-size: 16px;
+    }
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-decoration: none;
+        list-style-type: none;
+       
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+}
+

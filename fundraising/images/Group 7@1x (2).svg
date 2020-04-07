@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="765px" height="283px" viewBox="0 0 765 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>20910E89-DF52-46AB-BA96-249C15CA97FE@1x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="135.972222" cy="135.972222" r="135.972222"></circle>
+        <circle id="path-3" cx="135.972222" cy="135.972222" r="135.972222"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="271.944444" height="271.944444" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="135.972222" cy="135.972222" r="135.972222"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="271.944444" height="271.944444" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fundraising-COUP---Liquidation-Preference-Page" transform="translate(-336.000000, -1227.000000)">
+            <g id="Group-7" transform="translate(336.000000, 1216.000000)">
+                <line x1="471.486111" y1="87.7916667" x2="526.570922" y2="87.7916667" id="Line" stroke="#ECEBE6" stroke-width="1.52777778" stroke-linecap="square"></line>
+                <line x1="471.486111" y1="211.541667" x2="526.570922" y2="211.541667" id="Line" stroke="#ECEBE6" stroke-width="1.52777778" stroke-linecap="square"></line>
+                <rect id="Rectangle-8" stroke="#FFFFFF" x="0.666666667" y="49.3333333" width="29.5555556" height="212.888889"></rect>
+                <rect id="Rectangle-8-Copy" stroke="#FFFFFF" x="30.0833333" y="49.3333333" width="555" height="212.888889"></rect>
+                <text id="An-investor-invests" font-family="Roboto-Regular, Roboto" font-size="12.2222222" font-weight="normal" line-spacing="18.3333333" fill="#FFFFFF">
+                    <tspan x="82.6666667" y="108.722222">An investor invests $ 5m in a startup</tspan>
+                    <tspan x="82.6666667" y="139.277778">Pre-money valuation is $ 15m,</tspan>
+                    <tspan x="82.6666667" y="157.611111">post-money valuation is $ 20m</tspan>
+                    <tspan x="82.6666667" y="188.166667">The investor holds a share of 25% after </tspan>
+                    <tspan x="82.6666667" y="206.5">the financing round</tspan>
+                </text>
+                <text id="75%" font-family="Roboto-Regular, Roboto" font-size="36.6666667" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="698.361111" y="38">75%</tspan>
+                </text>
+                <text id="Founder" font-family="Roboto-Regular, Roboto" font-size="15.2777778" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="696.833333" y="62.3055556">Founder</tspan>
+                </text>
+                <g id="Group" transform="translate(518.055556, 155.805556) scale(-1, 1) translate(-518.055556, -155.805556) translate(382.055556, 19.805556)">
+                    <g id="2-Slices-Pie-Chart">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Oval"></g>
+                        <g id="#161032:0.75" stroke-dasharray="641.0119247436523,1359.722222222222" mask="url(#mask-2)" stroke="#C93A3C" stroke-width="271.944444">
+                            <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="#FAFF81:0.25" stroke-dasharray="213.6706415812174,1359.722222222222" mask="url(#mask-2)" transform="translate(135.972222, 135.972222) rotate(-270.000000) translate(-135.972222, -135.972222) " stroke="#FF4F51" stroke-width="271.944444">
+                            <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                    <circle id="Oval-3" fill="#FFFFFF" cx="132.916667" cy="134.444444" r="85.5555556"></circle>
+                </g>
+                <polyline id="Path-3" stroke="#DBDBDD" stroke-width="1.52777778" transform="translate(648.689197, 51.013053) scale(1, -1) translate(-648.689197, -51.013053) " points="615.861111 39.6666667 638.553883 62.3594387 681.517283 62.3594387"></polyline>
+                <polyline id="Path-3" stroke="#DBDBDD" stroke-width="1.52777778" points="615.861111 253.555556 638.553883 276.248328 681.517283 276.248328"></polyline>
+                <circle id="Oval-4" fill="#FFFFFF" cx="61.2777778" cy="105.361111" r="6.11111111"></circle>
+                <circle id="Oval-4" fill="#FFFFFF" cx="61.2777778" cy="137.444444" r="6.11111111"></circle>
+                <circle id="Oval-4" fill="#FFFFFF" cx="61.2777778" cy="190.916667" r="6.11111111"></circle>
+                <text id="Post-money-valuation" font-family="Roboto-Regular, Roboto" font-size="15.2777778" font-weight="normal" fill="#181A1C">
+                    <tspan x="476.11495" y="121.888889">Post-money</tspan>
+                    <tspan x="483.634481" y="141.888889">valuation:</tspan>
+                    <tspan x="465.765896" y="161.888889" font-size="36.6666667">$ 20m</tspan>
+                </text>
+                <text id="25%" font-family="Roboto-Regular, Roboto" font-size="36.6666667" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="698.361111" y="271.75">25%</tspan>
+                </text>
+                <text id="Investor-A" font-family="Roboto-Regular, Roboto" font-size="15.2777778" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="695.305556" y="293">Investor A</tspan>
+                </text>
+                <text id="Example" transform="translate(16.277778, 156.145833) rotate(-90.000000) translate(-16.277778, -156.145833) " font-family="Roboto-Regular, Roboto" font-size="12.2222222" font-weight="normal" line-spacing="30.5555556" letter-spacing="1.52777778" fill="#FFFFFF">
+                    <tspan x="-15.8532986" y="153.868056">EXAMPL</tspan>
+                    <tspan x="41.2652995" y="153.868056">E</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

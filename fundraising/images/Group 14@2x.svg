@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="447px" viewBox="0 0 1439 447" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>4456E2DF-AD27-422E-A4DB-275845316B80@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.685875706" width="1439" height="1439"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="COUPmanagement---Home-Page" transform="translate(-1.000000, -5587.000000)">
+            <g id="Group-16" transform="translate(0.000000, 5559.000000)">
+                <g id="Group-3">
+                    <g id="Group-14" transform="translate(720.500000, 580.000000) rotate(-180.000000) translate(-720.500000, -580.000000) translate(1.000000, -140.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <path d="M1507,1471.68588 C1376.551,1101.52291 1130.70634,945.255952 769.466026,1002.88499 C408.225713,1060.51403 128.737037,968.114321 -69,725.685876" id="Path-6" stroke="#FFFFFF" opacity="0.25" mask="url(#mask-2)"></path>
+                        <path d="M1530,1347.68588 C1472.30684,1085.07106 1303.72438,903.845135 1024.25265,804.008098 C605.045038,654.252542 236.301604,701.458098 -92,175.685876" id="Path-7" stroke="#FFFFFF" opacity="0.25" mask="url(#mask-2)"></path>
+                        <path d="M1026,1465.68588 C1024.79949,1345.54735 919.796886,1238.19004 710.992186,1143.61393 C397.785137,1001.74978 -77.0121693,1048.88411 -223,1231.77682" id="Path-8" stroke="#FFFFFF" opacity="0.25" mask="url(#mask-2)"></path>
+                        <path d="M-62,1167.99443 C261.278307,1134.35447 460.611641,1235.25162 536,1470.68588" id="Path-9" stroke="#FFFFFF" opacity="0.25" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

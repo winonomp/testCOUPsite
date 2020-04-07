@@ -1,0 +1,6847 @@
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+   button{
+       cursor: pointer;
+   }
+
+   .moduleDropHead {
+       cursor: pointer;
+   }
+  .box {
+    width: 230px;
+    height: 120px;
+    background-color: black;
+    color: #fff;
+    padding: 50px 5px 50px 0px;
+    position: relative;
+    margin: 20px 0 0 -4%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #1f1f1f;
+    position: absolute;
+    opacity: 0;
+
+  }
+
+  .head{
+      margin-top: 4%;
+  }
+  .box.arrow-top {
+    margin-top: 20px;
+ 
+  }
+
+  .box ul li a{
+      font-size: 14px;
+      
+  }
+  .box ul{
+    width: 100%;
+    list-style-type: none;
+}
+  .box.arrow-top:after {
+    
+    content: " ";
+    position: absolute;
+    margin-left: 60px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+  }
+
+.nav-links li a::after{
+    display: block;
+    opacity: 0;
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: #FF4F51;
+    text-align: center;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background-color: #181818;
+  }
+.nav-links li a:hover:after, .nav-links li a:hover{
+   opacity: 1;
+   transition: 0.5s;
+   width: 25px;
+   color: #FF4F51;
+}
+
+.nav .container{
+    padding: 3% 0 2% 0;
+}
+
+@font-face {
+    font-family: anton;
+    src: url(Anton.ttf);
+  }
+
+  .brandImagesmobile{
+      display: none;
+  }
+body{
+    margin-top: -40px;
+    background-color: #181818;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-image: url("images/Group 14.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#joinCoup{
+    background-image: url("images/Group 14@2x.svg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+button:focus {
+    outline: none!important;
+}
+
+button:hover, button:active{
+    background-color: rgb(216, 62, 64);
+}
+
+
+.stepContainer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #181818;
+    transform: skew(0deg, 15deg);
+}
+.stepContainer:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #181818;
+    transform: skew(0deg, -15deg);
+}
+
+p a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.detailsList li a, .coursePricePackage p a{
+    color: white;
+    font-weight: 600!important;
+    text-transform: none!important;
+    font-family: roboto;
+    text-decoration: underline;
+
+}
+.nav, header,footer{
+    padding-left: 18%;
+    padding-right: 18%;
+   
+
+    
+}
+section{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links{
+    list-style-type: none;
+    display: inherit;
+    justify-content: space-evenly;
+    width: 65%;
+    align-items: center;
+
+
+}
+span{
+    padding-left: 1%;
+    padding-right: 1%;
+   background-color: white;
+   color: black;
+    
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Anton' , sans-serif;
+    -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
+    letter-spacing: 0px;
+    font-weight: 500;
+ 
+}
+
+.step h4{
+    position: absolute;
+    
+    z-index: 1;
+}
+
+.theModuleSub p{
+    text-align: center!important;
+    margin-left: -15%;
+    font-size: 14px;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 32px;
+        text-transform: uppercase;
+}
+p, a, li{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+
+.theLecturera, .standsFor{
+    background-color: #181818;
+}
+
+.aboutlecturer h3{
+    margin-bottom: 0px!important;
+}
+
+#overviewTarget, .overviewDetails{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.modules .theModule{
+    margin-top: 12%;
+}
+.LineModule .theModule{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.row{
+
+    margin-top: 8%; 
+}
+
+.nav-links button{
+    margin-top: 0px;
+}
+
+.AbtIskenderBtn{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links li a{
+    font-size: 14px!important;
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px){
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -15%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 130%!important;
+    }
+    #overviewTarget{
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+    .nav, header,footer{
+        padding-left: 15%;
+        padding-right: 15%;
+       
+    
+        
+    }
+
+    body{
+        zoom: 1.5;
+    }
+    .iskenderQuotes .quotes .quote2 p{
+        font-size: 32px;
+        margin-top: 15%;
+       
+    
+    }
+    .iskenderQuotes .quotes .tandaPetik{
+        margin-top: -2%!important;
+        
+    }
+    section{
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .headImage img{
+        width: 100%;
+
+       
+    }
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+    .brands{
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img {
+        width: 65%;
+       
+    }
+    .theBrandPartner:first-child img{
+        width: 40%;
+        transform: skewY(3deg);
+    }
+    
+    .theBrandPartner img{
+        width: 55%;
+        transform: skewY(4deg);
+    }
+    #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 4%;
+        padding-bottom: 10%;
+        margin-top: 4%;
+    }
+    
+    .coursePricePackage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .priceNumber{
+        background-image: url("images/Group 4 (1).svg");
+        background-repeat: no-repeat;
+        width: 253px;
+        height: 182px;
+        padding-top: 3%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .priceNumber h3{
+        line-height: 0px;
+        transform: skewY(-3deg);
+        text-align: right;
+        margin-right: 18%;
+    }
+    .priceNumber p{
+        line-height: 20px;
+        transform: skewY(-3deg);
+        text-align: right;
+        font-size: 12px!important;
+        margin-right: 18%;
+    }
+    
+    
+    .priceDetail{
+        display: inline-grid;
+        justify-items: center;
+        margin-top: 10%;
+    }
+    
+    .theDetails{
+        background-color: #181818;
+        transform: skewY(-4deg);
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        width: 575px;
+        margin-top: -15%;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .theLecturer .container, .stopWasting .container, #coursePackage .container{
+        transform: skewY(4deg);
+    }
+    .stopWastingReason, .overviewDetails, .modules, .coupDetails{
+        padding-top: 12%;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    
+    .overviewDetails, .modules{
+        padding-top: 0;
+        padding-right: 8%;
+    }
+    
+    
+    .brandPartner{
+        display: flex;
+    
+        margin-top: 10%;
+    }
+    
+    #facts1 .container, #theCoup .container, #overview .container{
+        transform: skewY(4deg);
+    }
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        grid-area: head;
+        display: flex;
+        justify-content: space-between;
+    
+        
+    
+    }
+    
+    #onlineCourseFun .container{
+        padding-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .funContents{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .onlineCourseBtns{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .NoFillBtn{
+        margin-right: 2%;
+    }
+    .NoFillBtn button{
+        width: 397px;
+        height: 60px;
+        background-color: transparent;
+        border: 1px solid #FF4F51;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 6%;
+        margin-bottom: 6%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -3%;
+    }
+    
+    .theQuote{
+        margin-top: 10%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 16px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #theCoup .container .quotes .tandaPetik{
+        margin-top: -6%!important;
+    }
+    .quote2{
+        width: 80%;
+    
+    }
+    
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 16px!important;
+        color: #8A8B91;
+        
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    #coupFor, #overviewTarget{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 7%;
+        width: 35%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .aboutlecturer{
+        margin-top: 6%;
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: left;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    
+    .iskenderExperiences{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .iskenderExp{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 10%;
+    }
+    
+    .iskenderExp li{
+        flex: 1;
+        margin-right: 10%;
+    }
+    .theModuleContent{
+        margin-bottom: 10%;
+    }
+    .moduleDropHead a{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .moduleDropContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .LineModule{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+    
+    .theModule{
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    
+    .stepContainer{
+        position: relative;
+          text-align: center;
+          padding: 12px;
+          margin-bottom: 6px;
+          height: 160px;
+          width: 135px;
+          transform: rotate(-90deg);
+    }
+    
+    .stepContainer:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 51%;
+        background: #181818;
+        transform: skew(0deg, 15deg);
+    }
+    
+    .stepContainer:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        background: #181818;
+        transform: skew(0deg, -15deg);
+      }
+    #joinCoup{
+        margin-top: 10%;
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .iskenderPresent{
+        background-color: #1f1f1f;
+        transform: skewY(-3deg);
+    
+    }
+    .iskenderPresent .container{
+        padding-top: calc(15% + 20px);
+        transform: skewY(3deg);
+        padding-bottom: calc(15% + 20px);;
+    }
+    .impactContent {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .impactImgShp{
+        padding-right: 4%;
+      
+    }
+    
+    .impactImgShp2{
+        padding-right: 4%;
+        flex: 1;
+    }
+    
+    .impactImgShp2 p{
+        text-align: center;
+        color: #8A8B91;
+    }
+    .impactImg img{
+        width: calc(5% + 371px);
+        
+    }
+    
+    .impactImg{
+        display: flex;
+        justify-content: flex-start;
+        
+        
+    }
+    
+    .impactImgShp2 .impactImg{
+        justify-content: center;
+    }
+    
+    .coupFramework{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .coupFramework .container{
+        transform: skewY(4deg); 
+    }
+    .iskenderPresent2{
+        margin-top: 10%;
+    }
+    
+    .impactDescription22{
+        padding-right: 15%;
+        flex: 2;
+    }
+    
+    .experienceDesc{
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .hallImg{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .hallImg img{
+        width: 80%;
+    }
+    
+    .theFramework{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .theFramework h3, .theFramework p{
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .reasonDesc p, .reasonHead, .overviewDesc p, .overviewHead {
+        margin-top: 6%;
+     
+    }
+    
+    .AreaGroup1{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+    
+    .AreaGroup2{
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    
+    .area, .theBrandPartner{
+        display: flex;
+        width: 370px;
+        height: 208px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .area p{
+        transform: skewY(4deg);
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        
+    }
+} 
+@media only screen and (min-width: 1400px) and (max-width: 1680px){
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -10%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 135%!important;
+    }
+    .nav, header,footer{
+        padding-left: 15%;
+        padding-right: 15%;
+       
+    
+        
+    }
+
+    body{
+        zoom: 1.15;
+    }
+    .iskenderQuotes .quotes .quote2 p{
+        font-size: 32px;
+        margin-top: 15%;
+       
+    
+    }
+    .iskenderQuotes .quotes .tandaPetik{
+        margin-top: -3%!important;
+        
+    }
+    section{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    .headImage{
+        display: inherit;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .headImage img{
+        width: 100%;
+
+       
+    }
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+    .brands{
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img {
+        width: 65%;
+       
+    }
+    .theBrandPartner:first-child img{
+        width: 40%;
+        transform: skewY(3deg);
+    }
+    
+    .theBrandPartner img{
+        width: 55%;
+        transform: skewY(4deg);
+    }
+    #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 4%;
+        padding-bottom: 10%;
+        margin-top: 4%;
+    }
+    
+    .coursePricePackage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .priceNumber{
+        background-image: url("images/Group 4 (1).svg");
+        background-repeat: no-repeat;
+        width: 253px;
+        height: 182px;
+        padding-top: 3%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .priceNumber h3{
+        line-height: 0px;
+        transform: skewY(-3deg);
+        text-align: right;
+        margin-right: 18%;
+    }
+    .priceNumber p{
+        line-height: 20px;
+        transform: skewY(-3deg);
+        text-align: right;
+        font-size: 12px!important;
+        margin-right: 18%;
+    }
+    
+    
+    .priceDetail{
+        display: inline-grid;
+        justify-items: center;
+        margin-top: 10%;
+    }
+    
+    .theDetails{
+        background-color: #181818;
+        transform: skewY(-4deg);
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        width: 575px;
+        margin-top: -15%;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .theLecturer .container, .stopWasting .container, #coursePackage .container{
+        transform: skewY(4deg);
+    }
+    .stopWastingReason, .overviewDetails, .modules, .coupDetails{
+        padding-top: 12%;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    
+    .overviewDetails, .modules{
+        padding-top: 0;
+        padding-right: 8%;
+    }
+    
+    
+    .brandPartner{
+        display: flex;
+    
+        margin-top: 10%;
+    }
+    
+    #facts1 .container, #theCoup .container, #overview .container{
+        transform: skewY(4deg);
+    }
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        grid-area: head;
+        display: flex;
+        justify-content: space-between;
+    
+        
+    
+    }
+    
+    #onlineCourseFun .container{
+        padding-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .funContents{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .onlineCourseBtns{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .NoFillBtn{
+        margin-right: 2%;
+    }
+    .NoFillBtn button{
+        width: 397px;
+        height: 60px;
+        background-color: transparent;
+        border: 1px solid #FF4F51;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        margin-top: 6%;
+        margin-bottom: 6%;
+        
+      
+    }
+    
+    .seperator2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        
+      
+    }
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+        margin-top: -3%;
+    }
+    
+    .theQuote{
+        margin-top: 10%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 16px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #theCoup .container .quotes .tandaPetik{
+        margin-top: -6%!important;
+    }
+    .quote2{
+        width: 80%;
+    
+    }
+    
+    .socialMedia{
+        margin-top: 12%;
+        margin-bottom: 10%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jobPosition{
+        font-size: 16px!important;
+        color: #8A8B91;
+        
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    #coupFor, #overviewTarget{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .parCol{
+        background-color: #181818;
+        transform: skewY(-3deg);
+        padding: 5% 4% 5% 7%;
+        width: 35%;
+    }
+    
+    .parCol h3, .parCol ul, .parCol p{
+        transform: skewY(3deg);
+        width: 90%;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    #coupAbr{
+        margin-top: 20%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-left: 18%;
+        padding-right: 18%;
+        
+    }
+    #coupAbr h3{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #coupAbr h2{
+        line-height: 50px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    #coupAbr h2 span{
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    #lecturerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .aboutlecturer{
+        margin-top: 6%;
+    }
+    .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+        margin: 0px 0px 10px 0px;
+        text-transform: uppercase;
+        text-align: left;
+        
+    }
+    
+    .aboutlecturer p{
+        text-transform: capitalize;
+    }
+    
+    .aboutlecturer button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        width: 212px;
+    }
+    
+    .iskenderExperiences{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .iskenderExp{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 10%;
+    }
+    
+    .iskenderExp li{
+        flex: 1;
+        margin-right: 10%;
+    }
+    .theModuleContent{
+        margin-bottom: 10%;
+    }
+    .moduleDropHead a{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .moduleDropContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .LineModule{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+    
+    .theModule{
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    
+    .stepContainer{
+        position: relative;
+          text-align: center;
+          padding: 12px;
+          margin-bottom: 6px;
+          height: 160px;
+          width: 135px;
+          transform: rotate(-90deg);
+    }
+    
+    .stepContainer:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 51%;
+        background: #181818;
+        transform: skew(0deg, 15deg);
+    }
+    
+    .stepContainer:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        background: #181818;
+        transform: skew(0deg, -15deg);
+      }
+    #joinCoup{
+        margin-top: 10%;
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+      
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .iskenderPresent{
+        background-color: #1f1f1f;
+        transform: skewY(-3deg);
+    
+    }
+    .iskenderPresent .container{
+        padding-top: calc(15% + 20px);
+        transform: skewY(3deg);
+        padding-bottom: calc(15% + 20px);;
+    }
+    .impactContent {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .impactImgShp{
+        padding-right: 4%;
+      
+    }
+    
+    .impactImgShp2{
+        padding-right: 4%;
+        flex: 1;
+    }
+    
+    .impactImgShp2 p{
+        text-align: center;
+        color: #8A8B91;
+    }
+    .impactImg img{
+        width: calc(5% + 371px);
+        
+    }
+    
+    .impactImg{
+        display: flex;
+        justify-content: flex-start;
+        
+        
+    }
+    
+    .impactImgShp2 .impactImg{
+        justify-content: center;
+    }
+    
+    .coupFramework{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .coupFramework .container{
+        transform: skewY(4deg); 
+    }
+    .iskenderPresent2{
+        margin-top: 10%;
+    }
+    
+    .impactDescription22{
+        padding-right: 15%;
+        flex: 2;
+    }
+    
+    .experienceDesc{
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .hallImg{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .hallImg img{
+        width: 80%;
+    }
+    
+    .theFramework{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .theFramework h3, .theFramework p{
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .reasonDesc p, .reasonHead, .overviewDesc p, .overviewHead {
+        margin-top: 6%;
+     
+    }
+    
+    .AreaGroup1{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+    
+    .AreaGroup2{
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    
+    .area, .theBrandPartner{
+        display: flex;
+        width: 370px;
+        height: 208px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .area p{
+        transform: skewY(4deg);
+    }
+    
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+}    
+/*desktop*/
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+header .container{
+    display: grid;
+    
+    grid-template-areas: 
+        "head ."
+        "brands .";
+
+}
+.illustImg{
+    display: inherit;
+
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -15%;
+    margin-top: -6%;
+}
+
+.illustImg img{
+    width: 130%!important;
+}
+.nav, header,footer{
+    padding-left: 15%;
+    padding-right: 15%;
+   
+    .illustImg{
+        display: inherit;
+   
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: -15%;
+        margin-top: -6%;
+    }
+
+    .illustImg img{
+        width: 110%!important;
+    }
+    
+}
+
+.iskenderQuotes .quotes .quote2 p{
+    font-size: 28px;
+    margin-top: 5%;
+
+}
+.iskenderQuotes .quotes .tandaPetik{
+    margin-top: -8%!important;
+    
+}
+section{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+button{
+    background-color: #FF4F51;
+    width: 202px;
+    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 50px;
+    margin-top: 48px;
+    letter-spacing: 2px;
+}
+.headImage{
+    display: inherit;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headImage img{
+    width: 100%;
+
+   
+}
+.headContent{
+    width: 100%;
+   
+  }
+
+  .headContent h1{
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: uppercase;
+    
+  }
+
+  .headContent p{
+     width: 470px;
+
+  }
+
+.brands{
+    grid-area: brands;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.brands p{
+    font-size: 12px;
+}
+
+.brandImages{
+    margin-top: 12px;
+    justify-content: space-evenly;
+    display: inherit;
+    
+}
+
+.brandImg{
+    display: inherit;
+    align-items: center;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.brandImg img {
+    width: 65%;
+   
+}
+.theBrandPartner:first-child img{
+    width: 40%;
+    transform: skewY(3deg);
+}
+
+.theBrandPartner img{
+    width: 55%;
+    transform: skewY(4deg);
+}
+#facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    padding-top: 4%;
+    padding-bottom: 10%;
+    margin-top: 4%;
+}
+
+.coursePricePackage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.priceNumber{
+    background-image: url("images/Group 4 (1).svg");
+    background-repeat: no-repeat;
+    width: 253px;
+    height: 182px;
+    padding-top: 3%;
+    position: relative;
+    z-index: 1;
+}
+
+.priceNumber h3{
+    line-height: 0px;
+    transform: skewY(-3deg);
+    text-align: right;
+    margin-right: 18%;
+}
+.priceNumber p{
+    line-height: 20px;
+    transform: skewY(-3deg);
+    text-align: right;
+    font-size: 12px!important;
+    margin-right: 18%;
+}
+
+
+.priceDetail{
+    display: inline-grid;
+    justify-items: center;
+    margin-top: 10%;
+}
+
+.theDetails{
+    background-color: #181818;
+    transform: skewY(-4deg);
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    width: 575px;
+    margin-top: -15%;
+    position: relative;
+    z-index: 0;
+}
+
+.theLecturer .container, .stopWasting .container, #coursePackage .container{
+    transform: skewY(4deg);
+}
+.stopWastingReason, .overviewDetails, .modules, .coupDetails{
+    padding-top: 12%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.overviewDetails, .modules{
+    padding-top: 0;
+    padding-right: 8%;
+}
+
+
+.brandPartner{
+    display: flex;
+
+    margin-top: 10%;
+}
+
+#facts1 .container, #theCoup .container, #overview .container{
+    transform: skewY(4deg);
+}
+.publicspeaking{
+    display: grid;
+    grid-template-areas: 
+    "skill buffet";
+    grid-gap: 100px;
+    font-size: 20px!important;
+    font-family: 'Anton', sans-serif;
+}
+
+.skill {
+    grid-area: skill; 
+   
+}
+
+.buffet h5, .skill h5{
+    font-size: 35px;
+}
+
+
+.buffet{
+    grid-area: buffet;
+}
+
+
+.head{
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+#onlineCourseFun .container{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.funContents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.onlineCourseBtns{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.NoFillBtn{
+    margin-right: 2%;
+}
+.NoFillBtn button{
+    width: 397px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #FF4F51;
+}
+
+.seperator{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 1px;
+    transform: skewY(-4deg);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    
+  
+}
+
+.seperator2{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 1px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+  
+}
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%!important;
+}
+
+.tandaPetik{
+    position: absolute;
+    z-index: 1;
+    margin-top: -3%;
+}
+
+.theQuote{
+    margin-top: 10%;
+    width: 60%;
+    
+}
+
+.theQuote p{
+    font-family: 'roboto', sans-serif;
+    font-size: 32px;
+    line-height: 48px!important;
+   
+}
+
+.theQuote h5{
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+.themadness .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+.dataPrecentage{
+    margin-right: 0;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+#firstLinedata {
+    text-align: right!important;
+    justify-items: right;
+    width: 330px;
+}
+
+
+#secondLinedata{
+    text-align: left!Important;
+    width: 330px;
+}
+
+.dataImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.dataImg img{
+    position: absolute;
+
+}
+.stopmadness{
+    margin-top: 15%;
+}
+.stopmadness img{
+    width: 320px;
+}
+
+#theCoup .container .quotes .tandaPetik{
+    margin-top: -9%!important;
+}
+.quote2{
+    width: 80%;
+
+}
+
+.socialMedia{
+    margin-top: 12%;
+    margin-bottom: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.jobPosition{
+    font-size: 16px!important;
+    color: #8A8B91;
+    
+}
+
+.frameworkBtns2{
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+}
+.frameworkBtns2 button{
+    width: 267px;
+    height: 60px;
+
+}
+
+.coupFramework{
+    text-align: center;
+    padding-top: 10%;
+
+    h2{
+        font-size: 32px;
+    }
+}
+
+.frameworkBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 4px;
+    width: 354px;
+    height: 60px;
+}
+
+#frameworkImg{
+display: flex;
+justify-content: center;
+}
+
+#frameworkImg img{ 
+   width: 530px;
+    }
+
+#coupFor, #overviewTarget{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parCol{
+    background-color: #181818;
+    transform: skewY(-3deg);
+    padding: 5% 4% 5% 7%;
+    width: 35%;
+}
+
+.parCol h3, .parCol ul, .parCol p{
+    transform: skewY(3deg);
+    width: 90%;
+}
+.titleTheCoup p, .titleOverview P{
+    text-align : center;
+}
+#coupAbr{
+    margin-top: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    
+}
+#coupAbr h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+#coupAbr h2{
+    line-height: 50px;
+    color: grey;
+    text-transform: uppercase;
+}
+#coupAbr h2 span{
+    color: white;
+    background-color: transparent;
+    padding: 0;
+}
+#lecturerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.aboutlecturer{
+    margin-top: 6%;
+}
+.aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+    
+}
+
+.aboutlecturer p{
+    text-transform: capitalize;
+}
+
+.aboutlecturer button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 212px;
+}
+
+.iskenderExperiences{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.iskenderExp{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+}
+
+.iskenderExp li{
+    flex: 1;
+    margin-right: 10%;
+}
+.theModuleContent{
+    margin-bottom: 10%;
+}
+.moduleDropHead a{
+    display: flex;
+    align-items: center;
+}
+
+
+.moduleDropContent{
+    display: flex;
+    flex-direction: column;
+}
+.LineModule{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+.theModule{
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.stepContainer{
+    position: relative;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 6px;
+      height: 160px;
+      width: 135px;
+      transform: rotate(-90deg);
+}
+
+.stepContainer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #181818;
+    transform: skew(0deg, 15deg);
+}
+
+.stepContainer:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #181818;
+    transform: skew(0deg, -15deg);
+  }
+#joinCoup{
+    margin-top: 10%;
+    transform: skewY(-4deg);
+    background-color: #FF4F51;
+    background-image: url("images/Group 14.png");
+  
+    padding-top: 10%;
+    padding-bottom: 10%;
+ 
+}
+
+#ctaJoin{
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+}
+.iskenderPresent{
+    background-color: #1f1f1f;
+    transform: skewY(-3deg);
+
+}
+.iskenderPresent .container{
+    padding-top: calc(15% + 20px);
+    transform: skewY(3deg);
+    padding-bottom: calc(15% + 20px);;
+}
+.impactContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.impactImgShp{
+    padding-right: 4%;
+  
+}
+
+.impactImgShp2{
+    padding-right: 4%;
+    flex: 1;
+}
+
+.impactImgShp2 p{
+    text-align: center;
+    color: #8A8B91;
+}
+.impactImg img{
+    width: calc(5% + 371px);
+    
+}
+
+.impactImg{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.impactImgShp2 .impactImg{
+    justify-content: center;
+}
+
+.coupFramework{
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+.coupFramework .container{
+    transform: skewY(4deg); 
+}
+.iskenderPresent2{
+    margin-top: 10%;
+}
+
+.impactDescription22{
+    padding-right: 15%;
+    flex: 2;
+}
+
+.experienceDesc{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hallImg{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.hallImg img{
+    width: 80%;
+}
+
+.theFramework{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.theFramework h3, .theFramework p{
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.reasonDesc p, .reasonHead, .overviewDesc p, .overviewHead {
+    margin-top: 6%;
+ 
+}
+
+.AreaGroup1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.AreaGroup2{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.area, .theBrandPartner{
+    display: flex;
+    width: 370px;
+    height: 208px;
+    background-color: #181818;
+    transform: skewY(-3deg);
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.area p{
+    transform: skewY(4deg);
+}
+
+
+#ctaJoin h2{
+    margin: 0;
+}
+#ctaJoinBtn button{
+    margin-top: 25px;
+    width: 269px;
+    background-color: white;
+    color: #FF4F51;
+}
+#ctaJoinBtn{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  
+}
+#joinCoup .container{
+    transform: skewY(4deg);
+}
+
+footer .container{
+    display: block;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#footerLogo {
+    display: flex;
+    justify-content: center;
+}
+
+#footeritems{
+    padding: 5% 25% 0 22%;
+}
+
+#footeritems ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+}
+
+/*tablet potrait*/
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .AbtIskenderBtn{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+        .nav, header, footer{
+            padding-left: 8%!important;
+            padding-right: 5%!important;
+ 
+        }
+        .illustImg{
+            display: inherit;
+       
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: -10%;
+            margin-top: -6%;
+        }
+    
+        .illustImg img{
+            width: 110%!important;
+        }
+        #overviewTarget, .overviewDetails{
+            margin-top: 5%;
+            margin-bottom: 10%;
+        }
+
+        section{
+            padding-left: 8%!important;
+            padding-right: 10%!important;
+        }
+        header .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "head ."
+                "brands .";
+        
+        }
+        
+        .nav-links{
+            width: 60%;
+        }
+        
+        button{
+            background-color: #FF4F51;
+            width: 202px;
+            height: 60px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            border: transparent;
+            border-radius: 50px;
+            margin-top: 48px;
+            letter-spacing: 2px;
+        }
+        .headImage{
+            display: inherit;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .headImage img{
+            width: 100%;
+
+           
+        }
+        .headContent{
+            width: 50%;
+           
+          }
+        
+          .headContent h1{
+            font-size: 60px;
+            text-transform: uppercase;
+            
+          }
+        
+          .headContent p{
+             width: 420px;
+        
+        
+          }
+        
+        .brands{
+            grid-area: brands;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .brands p{
+            font-size: 12px;
+        }
+        
+        .brandImages{
+            margin-top: 12px;
+            justify-content: space-evenly;
+            display: inherit;
+            
+        }
+        
+        .brandImg{
+            display: inherit;
+            align-items: center;
+            height: 75px;
+        }
+        
+        .brandImg img{
+            width: 120px;
+        }
+        
+        #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            padding-top: 4%;
+            padding-bottom: 10%;
+            margin-top: 4%;
+        }
+        
+        #facts1 .container, #theCoup .container, .theLecturer .container, .stopWasting .container, #overview .container, .coursePricePackage, .coupDetails, .theDetails .container{
+            transform: skewY(4deg);
+        }
+        .publicspeaking{
+            display: grid;
+            grid-template-areas: 
+            "skill buffet";
+            grid-gap: 100px;
+            font-size: 20px!important;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .skill {
+            grid-area: skill; 
+           
+        }
+        
+        .buffet h5, .skill h5{
+            font-size: 32px;
+        }
+        
+        
+        .buffet{
+            grid-area: buffet;
+        }
+        
+        
+        .head{
+            grid-area: head;
+            display: flex;
+            justify-content: space-between;
+        
+            
+        
+        }
+        
+        .seperator{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            transform: skewY(-4deg);
+            
+          
+        }
+        .quotes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%!important;
+        }
+        
+        .tandaPetik{
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .theQuote{
+            margin-top: 10%;
+            width: 60%;
+            
+        }
+        
+       
+        .theQuote p{
+            font-family: 'roboto', sans-serif;
+            font-size: 32px;
+            line-height: 48px!important;
+           
+        }
+        
+        .theQuote h5{
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .themadness .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          
+        }
+        .dataPrecentage{
+            margin-right: 0;
+            display: flex;
+            z-index: 1;
+            justify-content: space-between;
+            margin-top: 3%;
+        }
+        #firstLinedata {
+            text-align: right!important;
+            justify-items: right;
+            width: 330px;
+        }
+        
+        
+        #secondLinedata{
+            text-align: left!Important;
+            width: 330px;
+        }
+        
+        .dataImg{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        
+        }
+        
+        .dataImg img{
+            position: absolute;
+        
+        }
+        .stopmadness{
+            margin-top: 15%;
+        }
+        .stopmadness img{
+            width: 320px;
+        }
+        
+        #theCoup .container .quotes .tandaPetik{
+            margin-top: -10%!important;
+        }
+        .quote2{
+            width: 80%;
+        
+        }
+        
+        .jobPosition{
+            font-size: 14px!important;
+            color: #8A8B91;
+            
+        }
+        
+        #coupFor, #overviewTarget{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .parCol{
+            background-color: #181818;
+            transform: skewY(-3deg);
+            padding: 5% 4% 5% 7%;
+            width: 35%;
+        }
+        
+        .parCol h3, .parCol ul, .parCol P{
+            transform: skewY(3deg);
+            width: 90%;
+        }
+
+        .moduleDropHead a {
+            display: flex;
+            align-items: center;
+        }
+        .moduleDropContent {
+            display: flex;
+            flex-direction: column;
+        }
+        .LineModule {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .theModule {
+            margin-left: 2%;
+            margin-right: 2%;
+            flex: 0;
+        }
+        .stepContainer {
+            position: relative;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 6px;
+            height: 160px;
+            width: 135px;
+            transform: rotate(-90deg);
+        }
+        .stepContainer:before {
+            
+            height: 90%;
+            width: 55%;
+           
+        }
+        .stepContainer:after {
+           
+            height: 90%;
+            width: 55%;
+           
+        }
+        #onlineCourseFun .container {
+            padding-top: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .funContents {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .onlineCourseBtns {
+            display: flex;
+            justify-content: center;
+        }
+        .NoFillBtn {
+            margin-right: 2%;
+        }
+        .NoFillBtn button {
+            width: 397px;
+            height: 60px;
+            background-color: transparent;
+            border: 1px solid #FF4F51;
+        }
+        .coursePricePackage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .priceDetail {
+            display: inline-grid;
+            justify-items: center;
+            margin-top: 10%;
+        }
+        .priceNumber {
+            background-image: url("images/Group 4 (1).svg");
+            background-repeat: no-repeat;
+            width: 253px;
+            height: 182px;
+            padding-top: 3%;
+            position: relative;
+            z-index: 1;
+        }
+        .priceNumber h3 {
+            line-height: 0px;
+            transform: skewY(-3deg);
+            text-align: right;
+            margin-right: 18%;
+        }
+        .priceNumber p {
+            line-height: 20px;
+            transform: skewY(-3deg);
+            text-align: right;
+            font-size: 12px!important;
+            margin-right: 18%;
+        }
+        .theDetails {
+            background-color: #181818;
+            transform: skewY(-4deg);
+            padding-top: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 10%;
+            width: 575px;
+            margin-top: -15%;
+            position: relative;
+            z-index: 0;
+        }
+        #coupAbr{
+            margin-top: 20%;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            padding-left: 18%;
+            padding-right: 18%;
+            
+        }
+        #coupAbr h3{
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        #coupAbr h2{
+            line-height: 50px;
+            color: grey;
+            text-transform: uppercase;
+        }
+        #coupAbr h2 span{
+            color: white;
+            background-color: transparent;
+            padding: 0;
+        }
+        #lecturerContent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+           
+        }
+        .aboutlecturer{
+            margin-top: 6%;
+        }
+        .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+            margin: 0px 0px 10px 0px;
+            text-transform: uppercase;
+            text-align: left;
+            
+        }
+        
+        .aboutlecturer p{
+            text-transform: capitalize;
+        }
+        
+        .aboutlecturer button{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            width: 212px;
+        }
+
+        .brandPartner {
+            display: flex;
+            margin-top: 10%;
+        }
+        .theBrandPartner:first-child img {
+            width: 40%;
+            transform: skewY(3deg);
+        }
+        .theBrandPartner img {
+            width: 55%;
+            transform: skewY(4deg);
+        }
+        .socialMedia {
+            margin-top: 12%;
+            margin-bottom: 10%;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .iskenderExperiences {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .iskenderExp {
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 10%;
+        }
+        .iskenderExp li {
+            flex: 1;
+            margin-right: 10%;
+        }
+        .seperator2 {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            margin-top: 2%;
+            margin-bottom: 4%;
+        }
+
+        .stopWastingReason, .overviewDetails, .modules, .coupDetails {
+            padding-top: 12%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .iskenderQuotes .quotes .quote2 p{
+            font-size: 28px;
+            margin-top: 5%;
+
+        }
+        .iskenderQuotes .quotes .tandaPetik{
+            margin-top: -12%!important;
+            
+        }
+        .iskenderPresent{
+            background-color: #1f1f1f;
+            transform: skewY(-3deg);
+        
+        }
+        .iskenderPresent .container{
+            padding-top: calc(15% + 20px);
+            transform: skewY(3deg);
+            padding-bottom: calc(15% + 20px);;
+        }
+        .impactContent {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .impactImgShp{
+            padding-right: 4%;
+          
+        }
+        
+        .impactImgShp2{
+            padding-right: 4%;
+            flex: 1;
+        }
+        
+        .impactImgShp2 p{
+            text-align: center;
+            color: #8A8B91;
+        }
+        .impactImg img{
+            width: calc(5% + 350px);
+            
+        }
+        
+        .impactImg{
+            display: flex;
+            justify-content: flex-start;
+            
+            
+        }
+        
+        .impactImgShp2 .impactImg{
+            justify-content: center;
+        }
+        .impactDescription22{
+            padding-right: 15%;
+            flex : 2;
+        }
+           
+        .AreaGroup1{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 6%;
+        }
+        
+        .AreaGroup2{
+            display: flex;
+            justify-content: center;
+            margin-top: 6%;
+        }
+        
+        .AreaGroup2 .area{
+            width: 300px;
+        }
+        .area, .theBrandPartner{
+            display: flex;
+            width: 370px;
+            height: 160px;
+            background-color: #181818;
+            transform: skewY(-3deg);
+            margin-right: 20px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+        .area p{
+            transform: skewY(4deg);
+        
+        }
+
+        .frameworkCovers{
+            margin-top: 15%;
+        }
+
+        .coupFramework {
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: 10%;
+            padding-bottom: 10%;
+            padding-top: 10%;
+           
+        }
+        .coupFramework .container {
+            transform: skewY(4deg);
+        }
+
+        .experienceDesc {
+            text-align: left;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .hallImg {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hallImg img{
+            width: 80%;
+        }
+
+        .theFramework {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        #frameworkImg img {
+            width: 480px;
+        }
+
+        #frameworkImg{
+            display: flex;
+            justify-content: center;
+        }
+
+        .frameworkBtn{
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 4px;
+            width: 354px;
+            height: 60px;
+        }
+
+        .frameworkBtns{
+            display: flex;
+            justify-content: center;
+        }
+        #joinCoup{
+            margin-top: 10%;
+            transform: skewY(-4deg);
+            background-color: #FF4F51;
+            background-image: url("images/Group 14.png");
+           
+            padding-top: 10%;
+        padding-bottom: 10%;
+         
+        }
+        
+        #ctaJoin{
+            display: block;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        #ctaJoin h2{
+            margin: 0;
+        }
+        #ctaJoinBtn button{
+            margin-top: 25px;
+            width: 269px;
+            background-color: white;
+            color: #FF4F51;
+        }
+        #ctaJoinBtn{
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+        }
+        #joinCoup .container{
+            transform: skewY(4deg);
+        }
+        
+        footer .container{
+            display: block;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        
+        #footerLogo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #footeritems{
+            padding: 5% 25% 0 22%;
+        }
+        
+        #footeritems ul{
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            list-style-type: none;
+            
+        }
+        
+        li a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+        }
+}
+
+        /*larger phones*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .navMobile{
+        display: none;
+        background-color: #1f1f1f;
+        position: fixed;
+        z-index: 100;
+        width: 40%;
+        height: 100%;
+        padding-top: 4%;
+        padding-left: 6%;
+        padding-right: 6%;
+        
+    }
+    .nav-linksMob, .abtMobDrop, .crsMobDrop{
+        list-style-type: none;
+        
+    }
+    .abtMobDrop li a, .crsMobDrop li a{
+        font-size: 14px!important;
+        line-height: 20px!important;
+        letter-spacing: 1px;
+    }
+    .abtMobDrop li, .crsMobDrop li{
+        margin-top: 10%!important;
+        margin-bottom: unset!important;
+    }
+    .nav-linksMob{
+        margin-left: -8%;
+        margin-top: 15%;
+    }
+    .nav-linksMob li{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .nav-linksMob li a{
+        font-size: 32px;
+        text-transform: capitalize;
+        line-height: 32px;
+    }
+    .nav-linksMob button{
+        width: 120%;
+        margin-left: -12%;
+    }
+    #abtMob a, #crsMob a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #coupLogoSide{
+        width: 70%;
+    }
+    
+    .nav, header, section, footer{
+        padding-left: 8%;
+        padding-right: 8%;
+       
+    
+        
+    }
+ 
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #coupLogo{
+        width: 120%;
+    }
+
+
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    .AbtIskenderBtn{
+        display: flex;
+        justify-content: center;
+
+    }
+    .AbtIskenderBtn button{
+        width: 290px!important;
+        height: 60px;
+        letter-spacing: 1px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+            body{
+                width: fit-content;
+            }
+                header .container{
+                    display: grid;
+                    
+                    grid-template-areas: 
+                        "head ."
+                        "brands .";
+                
+                }
+                
+                .nav-links{
+                    width: 60%;
+                }
+                
+                button{
+                    background-color: #FF4F51;
+                    width: 230px;
+                    height: 80px;
+                    padding-top: 18px;
+                    padding-bottom: 18px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                    font-size: 18px;
+                    font-family: 'Anton', sans-serif;
+                    color: white;
+                    text-transform: uppercase;
+                    border: transparent;
+                    border-radius: 50px;
+                    margin-top: 48px;
+                    letter-spacing: 4px;
+                }
+                .headImage{
+                    display: inherit;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: flex-start;
+                    grid-area: headImage;
+                }
+                
+                .headImage img{
+                    width: 900px;
+                    max-width: 100%;
+                    height: auto;
+                   
+                }
+                .headContent{
+                    width: 100%;
+                    grid-area: headContent;
+                    
+                   
+                  }
+                
+                  .headContent h1{
+                    font-size: 72px;
+                    text-transform: uppercase;
+                    zoom: 1.4;
+                    
+                  }
+                
+                  .headContent p{
+                      font-size: 18px;
+                     width: 100%;
+                     zoom: 1.4;
+                
+                
+                  }
+                
+                .brands{
+                    margin-top: 60px;
+                    grid-area: brands;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                }
+                
+                .brands p{
+                    font-size: 16px;
+                }
+                
+                .brandImages{
+                    margin-top: 12px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+                    
+                }
+                
+                .first-Row{
+                    grid-area: first-Row;
+                }
+                .second-Row{
+                    grid-area: second-Row;
+                }
+                .brandImg{
+                    display: inherit;
+                    align-items: center;
+                    height: 75px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                
+                .brandImg img{
+                    width: 120px;
+                }
+                
+                #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    padding-top: 4%;
+                    padding-bottom: 10%;
+                    margin-top: 4%;
+                }
+                
+                #facts1 .container, #theCoup .container, .theLecturer .container, .stopWasting .container, #overview .container, .coursePricePackage, .coupDetails, .theDetails .container{
+                    transform: skewY(4deg);
+                }
+        
+                .publicspeaking{
+                    display: flex;
+                flex-direction: column;
+                   
+                   
+                    font-family: 'Anton', sans-serif;
+                }
+                
+                .skill {
+                    grid-area: skill; 
+                   
+                }
+                
+                .buffet h5, .skill h5{
+                    font-size: 43px;
+                }
+                
+                
+                .buffet{
+                    grid-area: buffet;
+                }
+                
+                
+                .head{
+                    grid-area: head;
+                    display: grid;
+                    grid-template-areas: 
+                    "headImage ."
+                    "headContent .";
+                
+                    
+                
+                }
+        
+                
+                .seperator{
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0.151);
+                    height: 1px;
+                    transform: skewY(-4deg);
+                    
+                  
+                }
+                .quotes{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                    margin-top: 2%!important;
+                }
+                
+                .tandaPetik{
+                    position: absolute;
+                    z-index: 1;
+                    margin-top: -60px;
+                }
+                
+                .theQuote{
+                    margin-top: 18%;
+                    width: 60%;
+                    
+                }
+                
+                .theQuote p{
+                    font-family: 'roboto', sans-serif;
+                    font-size: 32px;
+                    line-height: 48px!important;
+                   
+                }
+                
+                .theQuote h5{
+                    font-size: 25px;
+                    font-family: 'Anton', sans-serif;
+                }
+                
+                .themadness{
+                    background-image: url("images/guySighs.png");
+                    background-repeat: no-repeat;
+                    background-size: 190%;
+                    background-position-x: -400px;
+                    margin-top: -30px;
+        
+                }
+                .themadness .container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                  
+                }
+                .dataPrecentage{
+                    margin-right: 0;
+                    display: flex;
+                    flex-direction: column;
+                    z-index: 1;
+                    justify-content: space-between;
+                    margin-top: 3%;
+                }
+                #firstLinedata, #secondLinedata{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                }
+                
+                .dataImg{
+                    display: none;
+                
+                }
+                
+                .dataImg img{
+                    position: absolute;
+                
+                }
+                .stopmadness{
+                    margin-top: 15%;
+                }
+                .stopmadness img{
+                    width: 320px;
+                }
+                
+                #theCoup .container .quotes .tandaPetik{
+                    margin-top: -20%!important;
+                }
+                .quote2{
+                    width: 80%;
+                
+                }
+                
+                .jobPosition{
+                    font-size: 18px!important;
+                    color: #8A8B91;
+                    
+                }
+                
+                #coupFor, #overviewTarget{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    padding-right: 5%;
+            padding-left: 5%;
+                }
+                
+                .parCol{
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    padding: 15% 4% 15% 12%;
+                    margin-bottom: 10%;
+                }
+                
+               
+                .parCol h3{
+                    text-transform: uppercase;
+                }
+               
+                
+                .parCol h3, .parCol ul, .parCol P{
+                    transform: skewY(3deg);
+                    width: 90%;
+                }
+        
+                .moduleDropHead a {
+                    display: flex;
+                    align-items: center;
+                }
+                .moduleDropContent {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .LineModule {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+                .theModule {
+                    margin-left: 2%;
+                  
+                    flex: 0;
+                }
+
+                .theModuleSub p{
+                    font-size: 14px;
+                }
+                .stepContainer {
+                    position: relative;
+                    text-align: center;
+                    padding: 12px;
+                    margin-bottom: 6px;
+                    height: 90px;
+                    width: 90px;
+                    transform: rotate(-90deg);
+                }
+                .stepContainer:before {
+                    
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                .stepContainer:after {
+                   
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                #onlineCourseFun .container {
+                    padding-top: 15%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .funContents {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    text-align: center;
+                }
+                .onlineCourseBtns {
+                    display: flex;
+                    justify-content: center;
+                    
+                }
+              
+                .NoFillBtn {
+                    margin-right: 2%;
+                }
+                .NoFillBtn button {
+                    width: 397px;
+                    height: 80px;
+                    background-color: transparent;
+                    border: 1px solid #FF4F51;
+                    font-size: 16px!important;
+                    letter-spacing: 1px;
+                }
+                .coursePricePackage {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .priceDetail {
+                    display: inline-grid;
+                    justify-items: center;
+                    margin-top: 10%;
+                    padding: 0 10% 0 10%;
+                }
+                .priceNumber {
+                    background-image: url("images/Group 4 (1).svg");
+                    background-repeat: no-repeat;
+                    width: 253px;
+                    height: 182px;
+                    padding-top: 3%;
+                    position: relative;
+                    z-index: 1;
+                }
+                .priceNumber h3 {
+                    line-height: 0px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    margin-right: 18%;
+                }
+                .priceNumber p {
+                    line-height: 20px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    font-size: 12px!important;
+                    margin-right: 18%;
+                }
+                .theDetails {
+                    background-color: #181818;
+                    transform: skewY(-4deg);
+                    padding-top: 15%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    padding-bottom: 10%;
+                    width: 100%;
+                    margin-top: -15%;
+                    position: relative;
+                    z-index: 0;
+                }
+        
+                #coupAbr{
+                    margin-top: 20%;
+                    display: block;
+                    justify-content: center;
+                    text-align: center;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    
+                }
+                #coupAbr h3{
+                    color: white;
+                    text-transform: uppercase;
+                }
+        
+                #coupAbr p{
+        
+                    font-size: 18px;
+                }
+                .against li, .forz li{
+                    font-size: 21px!important;
+                    line-height: 35px;
+                }
+                #coupAbr h2{
+                    line-height: 50px;
+                    color: grey;
+                    text-transform: uppercase;
+                }
+                #coupAbr h2 span{
+                    color: white;
+                    background-color: transparent;
+                    padding: 0;
+                }
+                #lecturerContent{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                   
+                }
+                .aboutlecturer{
+                    margin-top: -10%;
+                    display: inline-grid;
+                    justify-items: center;
+        
+                }
+                .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+                    margin: 0px 0px 10px 0px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    
+                }
+                
+                .aboutlecturer p{
+                    text-transform: capitalize;
+                }
+                
+                .aboutlecturer button{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                    width: 212px!important;
+                    font-size: 16px;
+                }
+                .aboutlecturer button img{
+                    margin-right: 10%!important;
+                }
+                .brandPartner{
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    margin-top: 10%;
+
+                }
+                .theBrandPartner{
+                    width: 200px!important;
+                    margin-right: 0px!important;
+                    height: 120px!important;
+                }
+                .theBrandPartner img{
+                    width: 80px;
+                    transform: skewY(3deg);
+                }
+                .theBrandPartner:first-child img{
+                    width: 50px;
+                }
+                .socialMedia{
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    width: 50%;
+                    padding: 0 10% 0 10%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                
+                .iskenderExperiences {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                }
+                .iskenderExp {
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding-left: 10%;
+                }
+                .iskenderExp li {
+                    flex: 1;
+                    margin-right: 10%;
+                }
+                .seperator2 {
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0.151);
+                    height: 1px;
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                }
+        
+                .stopWastingReason, .overviewDetails, .modules, .coupDetails {
+                    padding-top: 12%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .iskenderQuotes .quotes .quote2 p{
+                    font-size: 20px;
+        
+                }
+                .iskenderQuotes .quotes .tandaPetik{
+                    margin-top: -10%!important;
+                    
+                }
+        
+                .iskenderPresent{
+                    background-color: #1f1f1f;
+                    transform: skewY(-3deg);
+                    margin-top: 10%;
+                
+                }
+                .iskenderPresent .container{
+                    padding-top: calc(15% + 20px);
+                    transform: skewY(3deg);
+                    padding-bottom: calc(15% + 20px);;
+                }
+                .iskenderPresent2 .container{
+                    padding-top: calc(15% + 5px);
+                    padding-bottom: 5%;
+                }
+                .impactContent {
+                    display: flex;
+                  
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                }
+                
+                
+                .impactImgShp2{
+                    padding-right: 4%;
+                    flex: 1;
+                }
+                
+                .impactImgShp2 p{
+                    text-align: center;
+                    color: #8A8B91;
+                }
+                .impactImg img{
+                    width: calc(5% + 220px);
+                    
+                }
+                
+                .impactImg{
+                    display: flex;
+                    justify-content: flex-start;
+                    
+                    
+                }
+                
+                .impactImgShp2 .impactImg{
+                    justify-content: center;
+                }
+                .impactDescription22{
+                    padding-right: 15%;
+                    flex : 2;
+                }
+                 .fiveAreas{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                 }  
+                .AreaGroup1{
+                    display: flex;
+                    
+                    justify-content: space-evenly;
+                    
+                }
+                
+                .AreaGroup2{
+                    display: flex;
+                 
+                    justify-content: center;
+                   
+                }
+                
+                .area, .theBrandPartner{
+                    display: flex;
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    margin-right: 20px;
+                    align-items: center;
+                    justify-content: center;
+                
+                }
+
+                .computerLeg img{
+                    width: 400px;
+                }
+                .area{
+                    width: 230px;
+                    height: 140px;
+                    margin-top: 6%;
+                }
+                
+                .area p{
+                    transform: skewY(4deg);
+                
+                }
+        
+                .frameworkCovers{
+                    margin-top: 15%;
+                }
+        
+                .coupFramework {
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    margin-top: 10%;
+                    padding-bottom: 10%;
+                    padding-top: 10%;
+                   
+                }
+                .coupFramework .container {
+                    transform: skewY(4deg);
+                }
+        
+                .experienceDesc {
+                    text-align: left;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .hallImg {
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                .hallImg img{
+                    width: 80%;
+                }
+        
+                .theFramework {
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                #frameworkImg img {
+                    width: 480px;
+                }
+        
+                #frameworkImg{
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                .frameworkBtn{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    letter-spacing: 4px;
+                    width: 354px;
+                    height: 60px;
+                }
+        
+                .frameworkBtns{
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                #joinCoup{
+                    margin-top: 18%;
+                    transform: skewY(-4deg);
+                    background-color: #FF4F51;
+                    background-image: url("images/Group 14.png");
+               
+                    padding-top: 8%;
+                padding-bottom: 8%;
+                 
+                }
+                
+                #ctaJoin{
+                    display: block;
+                    justify-content: center;
+                    margin-top: 0;
+                }
+                
+                #ctaJoin h2{
+                    margin: 0;
+                    font-size: 60px!important;
+                
+                }
+                #ctaJoinBtn button{
+                    margin-top: 25px;
+                    width: 400px;
+                    background-color: white;
+                    color: #FF4F51;
+                    height: 100px;
+                    font-size: 23px;
+                }
+                #ctaJoinBtn{
+                    align-content: center;
+                    display: flex;
+                    justify-content: center;
+                  
+                }
+                #joinCoup .container{
+                    transform: skewY(4deg);
+                }
+                
+                footer .container{
+                    display: block;
+                    text-align: center;
+                    padding-bottom: 5%;
+                    margin-top: 20%;
+                }
+        
+                .numberPrecentage h3{
+        font-size: 45px;
+                }
+        
+                .description p{
+                    font-size: 25px;
+                }
+                
+                #footerLogo{
+                    display: flex;
+                    justify-content: center;
+                }
+
+
+                
+                #footeritems{
+                    padding: 5% 3% 0 0%;
+                }
+                
+                #footeritems ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    text-decoration: none;
+                    list-style-type: none;
+                    
+                    
+                }
+        
+                #footeritems ul li a{
+                    font-size: 20px!important;
+                }
+                
+                li a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Anton', sans-serif;
+                    text-transform: uppercase;
+                   
+                }
+}
+    /*phones*/
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .navMobile{
+        display: none;
+        background-color: #1f1f1f;
+        position: fixed;
+        z-index: 100;
+        width: 40%;
+        height: 100%;
+        padding-top: 4%;
+        padding-left: 6%;
+        padding-right: 6%;
+        
+    }
+    .nav-linksMob, .abtMobDrop, .crsMobDrop{
+        list-style-type: none;
+        
+    }
+    .abtMobDrop li a, .crsMobDrop li a{
+        font-size: 14px!important;
+        line-height: 20px!important;
+        letter-spacing: 1px;
+    }
+    .abtMobDrop li, .crsMobDrop li{
+        margin-top: 10%!important;
+        margin-bottom: unset!important;
+    }
+    .nav-linksMob{
+        margin-left: -8%;
+        margin-top: 15%;
+    }
+    .nav-linksMob li{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .nav-linksMob li a{
+        font-size: 32px;
+        text-transform: capitalize;
+        line-height: 32px;
+    }
+    .nav-linksMob button{
+        width: 120%;
+        margin-left: -12%;
+    }
+    #abtMob a, #crsMob a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #coupLogoSide{
+        width: 70%;
+    }
+    
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #coupLogo{
+        width: 120%;
+    }
+
+ .nav, header, section, footer{
+        padding-left: 6%;
+        padding-right: 6%;
+       
+    
+        
+    }
+    .AbtIskenderBtn{
+        display: flex;
+        justify-content: center;
+
+    }
+    .AbtIskenderBtn button{
+        width: 290px!important;
+        height: 80px;
+        letter-spacing: 1px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+    body{
+        width: fit-content;
+    }
+        header .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "head ."
+                "brands .";
+        
+        }
+        
+        .nav-links{
+            width: 60%;
+        }
+        
+        button{
+            background-color: #FF4F51;
+            width: 230px;
+            height: 80px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 18px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            border: transparent;
+            border-radius: 50px;
+            margin-top: 48px;
+            letter-spacing: 4px;
+        }
+        .headImage{
+            display: inherit;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-start;
+            grid-area: headImage;
+        }
+        
+        .headImage img{
+            width: 90%;
+            max-width: 500px;
+            height: auto;
+           
+        }
+        .headContent{
+            width: 100%;
+            grid-area: headContent;
+           
+          }
+        
+          .headContent h1{
+            font-size: 72px;
+            text-transform: uppercase;
+            
+          }
+        
+          .headContent p{
+              font-size: 18px;
+             
+        
+        
+          }
+        
+        .brands{
+            margin-top: 60px;
+            grid-area: brands;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .brands p{
+            font-size: 16px;
+        }
+        
+        .brandImages{
+            margin-top: 12px;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-evenly;
+            
+        }
+        
+        .brandImg{
+            display: inherit;
+            align-items: center;
+            height: 75px;
+        }
+        
+        .brandImg img{
+            width: 120px;
+        }
+        
+        #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            padding-top: 4%;
+            padding-bottom: 10%;
+            margin-top: 4%;
+        }
+        
+        #facts1 .container, #theCoup .container, .theLecturer .container, .stopWasting .container, #overview .container, .coursePricePackage, .coupDetails, .theDetails .container{
+            transform: skewY(4deg);
+        }
+        .publicspeaking{
+            display: flex;
+        flex-direction: column;
+           
+           
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .skill {
+            grid-area: skill; 
+           
+        }
+        
+        .buffet h5, .skill h5{
+            font-size: 43px;
+        }
+        
+        
+        .buffet{
+            grid-area: buffet;
+        }
+        
+        
+        .head{
+            grid-area: head;
+            display: grid;
+            grid-template-areas: 
+            "headImage ."
+            "headContent .";
+        
+            
+        
+        }
+
+        
+        .seperator{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            transform: skewY(-4deg);
+            
+          
+        }
+        .quotes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%!important;
+        }
+        
+        .tandaPetik{
+            position: absolute;
+            z-index: 1;
+            margin-top: -60px;
+        }
+        
+        .theQuote{
+            margin-top: 18%;
+            width: 60%;
+            
+        }
+        
+        .theQuote p{
+            font-family: 'roboto', sans-serif;
+            font-size: 32px;
+            line-height: 48px!important;
+           
+        }
+        
+        .theQuote h5{
+            font-size: 25px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .themadness{
+            background-image: url("images/guySighs.png");
+            background-repeat: no-repeat;
+            background-size: 190%;
+            background-position-x: -400px;
+            margin-top: -30px;
+
+        }
+        .themadness .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          
+        }
+        .dataPrecentage{
+            margin-right: 0;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            justify-content: space-between;
+            margin-top: 3%;
+        }
+        #firstLinedata, #secondLinedata{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        
+        .dataImg{
+            display: none;
+        
+        }
+        
+        .dataImg img{
+            position: absolute;
+        
+        }
+        .stopmadness{
+            margin-top: 15%;
+        }
+        .stopmadness img{
+            width: 320px;
+        }
+        
+        #theCoup .container .quotes .tandaPetik{
+            margin-top: -20%!important;
+        }
+        .quote2{
+            width: 80%;
+        
+        }
+        
+        .jobPosition{
+            font-size: 18px!important;
+            color: #8A8B91;
+            
+        }
+        
+        #coupFor, #overviewTarget{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-right: 5%;
+    padding-left: 5%;
+        }
+        
+        .parCol{
+            background-color: #181818;
+            transform: skewY(-3deg);
+            padding: 15% 4% 15% 12%;
+            margin-bottom: 10%;
+        }
+        
+       
+        .parCol h3{
+            text-transform: uppercase;
+        }
+       
+        
+        .parCol h3, .parCol ul, .parCol P{
+            transform: skewY(3deg);
+            width: 90%;
+        }
+
+        .moduleDropHead a {
+            display: flex;
+            align-items: center;
+        }
+        .moduleDropContent {
+            display: flex;
+            flex-direction: column;
+        }
+        .LineModule {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .theModule {
+            margin-left: 2%;
+          
+            flex: 0;
+        }
+
+        .theModuleSub p{
+            font-size: 14px;
+        }
+        .stepContainer {
+            position: relative;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 6px;
+            height: 90px;
+            width: 90px;
+            transform: rotate(-90deg);
+        }
+        .stepContainer:before {
+            
+            height: 100%;
+            width: 50%;
+           
+        }
+        .stepContainer:after {
+           
+            height: 100%;
+            width: 50%;
+           
+        }
+        #onlineCourseFun .container {
+            padding-top: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .funContents {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .onlineCourseBtns {
+            display: flex;
+            justify-content: center;
+            
+        }
+      
+        .NoFillBtn {
+            margin-right: 2%;
+        }
+        .NoFillBtn button {
+            width: 320px;
+            height: 60px;
+            background-color: transparent;
+            border: 1px solid #FF4F51;
+            font-size: 14px!important;
+            letter-spacing: 1px;
+        }
+
+        .onlineCourseBtns div:last-child button{
+            height: 60px;
+            width: 197px;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        .coursePricePackage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .priceDetail {
+            display: inline-grid;
+            justify-items: center;
+            margin-top: 10%;
+            padding: 0 10% 0 10%;
+        }
+        .priceNumber {
+            background-image: url("images/Group 4 (1).svg");
+            background-repeat: no-repeat;
+            width: 253px;
+            height: 182px;
+            padding-top: 3%;
+            position: relative;
+            z-index: 1;
+        }
+        .priceNumber h3 {
+            line-height: 0px;
+            transform: skewY(-3deg);
+            text-align: right;
+            margin-right: 18%;
+        }
+        .priceNumber p {
+            line-height: 20px;
+            transform: skewY(-3deg);
+            text-align: right;
+            font-size: 12px!important;
+            margin-right: 18%;
+        }
+        .theDetails {
+            background-color: #181818;
+            transform: skewY(-4deg);
+            padding-top: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 10%;
+            width: 100%;
+            margin-top: -15%;
+            position: relative;
+            z-index: 0;
+        }
+#coupAbr{
+            margin-top: 20%;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            
+        }
+        #coupAbr h3{
+            color: white;
+            text-transform: uppercase;
+        }
+
+        #coupAbr p{
+
+            font-size: 18px;
+        }
+        .against li, .forz li{
+            font-size: 21px!important;
+            line-height: 35px;
+        }
+        #coupAbr h2{
+            line-height: 50px;
+            color: grey;
+            text-transform: uppercase;
+        }
+        #coupAbr h2 span{
+            color: white;
+            background-color: transparent;
+            padding: 0;
+        }
+        #lecturerContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+           
+        }
+        .aboutlecturer{
+            margin-top: -10%;
+            display: inline-grid;
+            justify-items: center;
+
+        }
+        .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+            margin: 0px 0px 10px 0px;
+            text-transform: uppercase;
+            text-align: center;
+            
+        }
+        
+        .aboutlecturer p{
+            text-transform: capitalize;
+        }
+        
+        .aboutlecturer button{
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            width: 212px!important;
+            font-size: 16px;
+        }
+        .aboutlecturer button img{
+            margin-right: 10%!important;
+        }
+        .brandPartner{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 10%;
+
+        }
+        .theBrandPartner{
+            width: 150px!important;
+            margin-right: 0px!important;
+            height: 80px!important;
+        }
+        .theBrandPartner img{
+            width: 80px;
+            transform: skewY(3deg);
+        }
+        .theBrandPartner:first-child img{
+            width: 50px;
+        }
+        .socialMedia{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 50%;
+            padding: 0 10% 0 10%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .iskenderExperiences {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .iskenderExp {
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 10%;
+        }
+        .iskenderExp li {
+            flex: 1;
+            margin-right: 10%;
+        }
+        .seperator2 {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            margin-top: 2%;
+            margin-bottom: 4%;
+        }
+
+        .stopWastingReason, .overviewDetails, .modules, .coupDetails {
+            padding-top: 12%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .iskenderQuotes .quotes .quote2 p{
+            font-size: 20px;
+
+        }
+        .iskenderQuotes .quotes .tandaPetik{
+            margin-top: -10%!important;
+            
+        }
+.iskenderPresent{
+            background-color: #1f1f1f;
+            transform: skewY(-3deg);
+            margin-top: 10%;
+          
+        
+        }
+        .iskenderPresent .container{
+            padding-top: calc(15% + 20px);
+            transform: skewY(3deg);
+            padding-bottom: calc(15% + 20px);
+            padding-left: 3%;
+        }
+        .iskenderPresent2 .container{
+            padding-left: 10%;
+            padding-bottom: 5%;
+        }
+        .impactContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        
+        .impactImgShp2{
+            padding-right: 4%;
+            flex: 1;
+        }
+        
+        .impactImgShp2 p{
+            text-align: center;
+            color: #8A8B91;
+        }
+        .impactImg img{
+            width: 100%;
+            
+        }
+        
+        .impactImg{
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        
+        .impactImgShp2 .impactImg{
+            justify-content: center;
+        }
+        .impactDescription22, .impactDescription{
+           margin-top: 8%;
+            
+        }
+         .fiveAreas{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         }  
+        .AreaGroup1{
+            display: inline-grid;
+            justify-content: center;
+            
+        }
+        
+        .AreaGroup2{
+            display: inline-grid;
+            justify-content: center;
+
+        }
+        
+        .area, .theBrandPartner{
+            display: flex;
+            width: 370px;
+            height: 160px;
+            background-color: #181818;
+            transform: skewY(-3deg);
+            margin-right: 20px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+        .computerLeg img{
+            width: 400px;
+        }
+        .area{
+            margin-top: 6%;
+        }
+        
+        .area p{
+            transform: skewY(4deg);
+        
+        }
+
+        .frameworkCovers{
+            margin-top: 15%;
+        }
+
+        .coupFramework {
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: 10%;
+            padding-bottom: 10%;
+            padding-top: 10%;
+           
+        }
+        .coupFramework .container {
+            transform: skewY(4deg);
+        }
+
+        .experienceDesc {
+            text-align: left;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .hallImg {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hallImg img{
+            width: 80%;
+        }
+
+        .theFramework {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        #frameworkImg img {
+            width: 480px;
+        }
+
+        #frameworkImg{
+            display: flex;
+            justify-content: center;
+        }
+
+        .frameworkBtn{
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 4px;
+            width: 354px;
+            height: 60px;
+        }
+
+        .frameworkBtns{
+            display: flex;
+            justify-content: center;
+        }
+
+        
+        #joinCoup{
+            margin-top: 18%;
+            transform: skewY(-4deg);
+            background-color: #FF4F51;
+            background-image: url("images/Group 14.png");
+       
+            padding-top: 8%;
+        padding-bottom: 8%;
+         
+        }
+        
+        #ctaJoin{
+            display: block;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        #ctaJoin h2{
+            margin: 0;
+            font-size: 60px!important;
+        
+        }
+        #ctaJoinBtn button{
+            margin-top: 25px;
+            width: 400px;
+            background-color: white;
+            color: #FF4F51;
+            height: 100px;
+            font-size: 23px;
+        }
+        #ctaJoinBtn{
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+        }
+        #joinCoup .container{
+            transform: skewY(4deg);
+        }
+        
+        footer .container{
+            display: block;
+            text-align: center;
+            padding-bottom: 5%;
+            margin-top: 20%;
+        }
+
+        .numberPrecentage h3{
+font-size: 45px;
+        }
+
+        .description p{
+            font-size: 25px;
+        }
+        
+        #footerLogo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #footeritems{
+            padding: 5% 3% 0 0%;
+        }
+        
+        #footeritems ul{
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            list-style-type: none;
+            
+            
+        }
+
+        #footeritems ul li a{
+            font-size: 20px!important;
+        }
+        
+        li a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+           
+        }
+}
+@media only screen and (min-width: 375px) and (max-width: 599px){
+    .navMobile{
+        display: none;
+        background-color: #1f1f1f;
+        position: fixed;
+        z-index: 100;
+        width: 84%;
+        height: 100%;
+        padding-top: 4%;
+        padding-left: 9%;
+        padding-right: 9%;
+        
+    }
+    .nav-linksMob, .abtMobDrop, .crsMobDrop{
+        list-style-type: none;
+        
+    }
+    .abtMobDrop li a, .crsMobDrop li a{
+        font-size: 12px!important;
+        line-height: 20px!important;
+        letter-spacing: 1px;
+    }
+    .abtMobDrop li, .crsMobDrop li{
+        margin-top: 3%!important;
+        margin-bottom: unset!important;
+    }
+    .nav-linksMob{
+        margin-left: -8%;
+        margin-top: 15%;
+    }
+    .nav-linksMob li{
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .nav-linksMob li a{
+        font-size: 32px;
+        text-transform: capitalize;
+        line-height: 32px;
+    }
+    .nav-linksMob button{
+        width: 110%;
+        margin-left: -10%;
+    }
+    #abtMob a, #crsMob a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #coupLogoSide{
+        width: 70%;
+    }
+    
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20%;
+    }
+ 
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+            .nav, header, section, footer{
+                   padding-left: 6%;
+                   padding-right: 6%;
+                  
+               
+                   
+               }
+
+               
+               .AbtIskenderBtn{
+                display: flex;
+                justify-content: center;
+
+            }
+            .AbtIskenderBtn button{
+                width: 290px!important;
+                height: 60px;
+                letter-spacing: 1px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+
+                
+            }
+               .brandImagesmobile{
+                display: flex;
+                flex-direction: column;
+            }
+               body{
+                   width: fit-content;
+               }
+                   header .container{
+                       display: grid;
+                       overflow: hidden;
+                       grid-template-areas: 
+                           "head ."
+                           "brands .";
+                   
+                   }
+                   
+                   .nav-links{
+                       width: 60%;
+                   }
+                   
+                   button{
+                       background-color: #FF4F51;
+                       width: 230px;
+                       height: 80px;
+                       padding-top: 18px;
+                       padding-bottom: 18px;
+                       padding-left: 32px;
+                       padding-right: 32px;
+                       font-size: 18px;
+                       font-family: 'Anton', sans-serif;
+                       color: white;
+                       text-transform: uppercase;
+                       border: transparent;
+                       border-radius: 50px;
+                       margin-top: 48px;
+                       letter-spacing: 4px;
+                   }
+                   .headImage{
+                       display: inherit;
+                       width: 100%;
+                       align-items: center;
+                       justify-content: flex-start;
+                       grid-area: headImage;
+                   }
+                   
+                   .headImage img{
+                       width: 90%;
+                       max-width: 400px;
+                       height: auto;
+                      
+                   }
+                   .headContent{
+                       width: 100%;
+                       
+                       grid-area: headContent;
+                      
+                     }
+                   
+                     .headContent h1{
+                       font-size: 60px;
+                       text-transform: uppercase;
+                       
+                     }
+                   
+                     .headContent p{
+                        
+                         font-size: 14px;
+                        
+                   
+                   
+                     }
+                   
+                   .brands{
+                       margin-top: 60px;
+                       grid-area: brands;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                   }
+                   
+                   .brands p{
+                       font-size: 16px;
+                   }
+                   
+                   .brandImages{
+                       display: none;
+                       
+                   }
+                   
+                   .mobileRow{
+                       display: flex;
+                       justify-content: space-evenly;
+                   }
+                   .brandImg{
+                       display: inherit;
+                       align-items: center;
+                       height: 75px;
+                   }
+                   
+                   .brandImg img{
+                       width: 120px;
+                   }
+                   #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    padding-top: 4%;
+                    padding-bottom: 10%;
+                    margin-top: 4%;
+                }
+                
+                #facts1 .container, #theCoup .container, .theLecturer .container, .stopWasting .container, #overview .container, .coursePricePackage, .coupDetails, .theDetails .container{
+                    transform: skewY(4deg);
+                }
+                   .publicspeaking{
+                       display: flex;
+                   flex-direction: column;
+                      
+                      
+                       font-family: 'Anton', sans-serif;
+                   }
+                   
+                   .skill {
+                       grid-area: skill; 
+                      
+                   }
+                   
+                   .buffet h5, .skill h5{
+                       font-size: 32px;
+                   }
+                   
+                   
+                   .buffet{
+                       grid-area: buffet;
+                   }
+                   
+                   
+                   .head{
+                     
+                       grid-area: head;
+                       display: grid;
+                       grid-template-areas: 
+                       "headImage ."
+                       "headContent .";
+                   
+                       
+                   
+                   }
+           
+                   
+                   .seperator{
+                       width: 100%;
+                       background-color: rgba(255, 255, 255, 0.151);
+                       height: 1px;
+                       transform: skewY(-4deg);
+                       
+                     
+                   }
+                   .quotes{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                       align-items: center;
+                       margin-top: 2%!important;
+                   }
+                   
+                   .tandaPetik{
+                       position: absolute;
+                       z-index: 1;
+                       margin-top: -60px;
+                   }
+                   
+                   .theQuote{
+                       margin-top: 18%;
+               
+                       
+                   }
+                   
+                   .theQuote p{
+                       font-family: 'roboto', sans-serif;
+                       font-size: 25px;
+                       line-height: 40px!important;
+                      
+                   }
+                   
+                   .theQuote h5{
+                       font-size: 25px;
+                       font-family: 'Anton', sans-serif;
+                   }
+                   
+                   .themadness{
+                       background-image: url("images/guySighs.png");
+                       background-repeat: no-repeat;
+                       background-size: 200%;
+                       background-position-x: -200px;
+                       margin-top: -30px;
+           
+                   }
+                   .themadness .container{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                     
+                   }
+                   .dataPrecentage{
+                       margin-right: 0;
+                       display: flex;
+                       flex-direction: column;
+                       z-index: 1;
+                       justify-content: space-between;
+                       margin-top: 3%;
+                   }
+                   #firstLinedata, #secondLinedata{
+                       display: flex;
+                       flex-direction: column;
+                       text-align: left;
+                   }
+                   
+                   .dataImg{
+                       display: none;
+                   
+                   }
+                   
+                   .dataImg img{
+                       position: absolute;
+                   
+                   }
+                   .stopmadness{
+                       margin-top: 15%;
+                   }
+                   .stopmadness img{
+                       width: 320px;
+                   }
+                   
+                   #theCoup .container .quotes .tandaPetik{
+                       margin-top: -20%!important;
+                   }
+
+                   
+                   .quote2{
+                       width: 80%;
+                   
+                   }
+                   #theCoup .container .quotes .tandaPetik{
+                       margin-top: -50%!important;
+                   }
+                   
+                   .jobPosition{
+                       font-size: 18px!important;
+                       color: #8A8B91;
+                       
+                   }
+                   
+                   #coupFor, #overviewTarget{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    padding-right: 5%;
+            padding-left: 5%;
+                }
+                
+                .parCol{
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    padding: 15% 4% 15% 12%;
+                    margin-bottom: 10%;
+                }
+                
+               
+                .parCol h3{
+                    text-transform: uppercase;
+                }
+               
+                
+                .parCol h3, .parCol ul, .parCol P{
+                    transform: skewY(3deg);
+                    width: 90%;
+                }
+        
+                .moduleDropHead a {
+                    display: flex;
+                    align-items: center;
+                }
+                .moduleDropContent {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .LineModule {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                }
+                .theModule {
+                    margin-left: 2%;
+                    
+                    flex: 1;
+                }
+                .theContentDesc p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    
+                }
+                .theContent{
+                    margin-top: 10%;
+                }
+                .theModuleSub p{
+                    font-size: 14px;
+                }
+                .stepContainer {
+                    position: relative;
+                    text-align: center;
+                    padding: 12px;
+                    margin-bottom: 6px;
+                    height: 90px;
+                    width: 90px;
+                    transform: rotate(-90deg);
+                }
+                .stepContainer:before {
+                    
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                .stepContainer:after {
+                   
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                #onlineCourseFun .container {
+                    padding-top: 15%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .funContents {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    text-align: center;
+                }
+                .onlineCourseBtns {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+              
+                .NoFillBtn {
+                    margin-right: 2%;
+                }
+                .NoFillBtn button {
+                    width: 320px;
+                    height: 60px;
+                    background-color: transparent;
+                    border: 1px solid #FF4F51;
+                    font-size: 14px!important;
+                    letter-spacing: 1px;
+                }
+        
+                .onlineCourseBtns div:last-child button{
+                    width: 320px;
+                    height: 60px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    margin-top: 5%;
+                }
+                .coursePricePackage {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .priceDetail {
+                    display: inline-grid;
+                    justify-items: center;
+                    margin-top: 10%;
+                    padding: 0 10% 0 10%;
+                }
+                .priceNumber {
+                    background-image: url("images/Group 4 (1).svg");
+                    background-repeat: no-repeat;
+                    width: 253px;
+                    height: 182px;
+                    padding-top: 11%;
+                    position: relative;
+                    z-index: 1;
+                }
+                .priceNumber h3 {
+                    line-height: 0px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    margin-right: 18%;
+                }
+                .priceNumber p {
+                    line-height: 20px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    font-size: 12px!important;
+                    margin-right: 18%;
+                }
+                .theDetails {
+                    background-color: #181818;
+                    transform: skewY(-4deg);
+                    padding-top: 40%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    padding-bottom: 10%;
+                    width: 100%;
+                    margin-top: -50%;
+                    position: relative;
+                    z-index: 0;
+                }
+                           #coupAbr{
+                       margin-top: 20%;
+                       display: block;
+                       justify-content: center;
+                       text-align: center;
+                       padding-left: 10%;
+                       padding-right: 10%;
+                       
+                   }
+
+                   #coupAbr h2{
+                       font-size: 32px;
+                       line-height: 18px;
+                   }
+                   #coupAbr h3{
+                       color: white;
+                       text-transform: uppercase;
+                   }
+           
+                   #coupAbr p{
+           
+                       font-size: 16px;
+                   }
+                   .against li, .forz li{
+                       font-size: 14px!important;
+                       line-height: 30px;
+                   }
+                   #coupAbr h2{
+                       line-height: 50px;
+                       color: grey;
+                       text-transform: uppercase;
+                   }
+                   #coupAbr h2 span{
+                       color: white;
+                       background-color: transparent;
+                       padding: 0;
+                   }
+                   #lecturerContent{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                   
+                }
+                .aboutlecturer{
+                    margin-top: -10%;
+                    display: inline-grid;
+                    justify-items: center;
+        
+                }
+                .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+                    margin: 0px 0px 10px 0px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    
+                }
+                
+                .aboutlecturer p{
+                    text-transform: capitalize;
+                }
+                
+                .aboutlecturer button{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    width: 212px!important;
+                    font-size: 16px;
+                }
+                .aboutlecturer button img{
+                    margin-right: 10%!important;
+                }
+                .brandPartner{
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    margin-top: 10%;
+        
+                }
+                .theBrandPartner{
+                    width: 350px!important;
+                    margin-right: 0px!important;
+                    height: 150px!important;
+                    margin-bottom: 8%;
+                }
+                .theBrandPartner img{
+                    width: 120px;
+                    transform: skewY(3deg);
+                }
+                .theBrandPartner:first-child img{
+                    width: 100px;
+                }
+                .socialMedia{
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    width: 50%;
+                    padding: 0 10% 0 10%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                
+                .iskenderExperiences {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                }
+                .iskenderExp {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    padding-left: 10%;
+                }
+                .iskenderExp li {
+                    flex: 1;
+                    margin-right: 10%;
+                }
+                .seperator2 {
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0.151);
+                    height: 1px;
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                }
+        
+                .stopWastingReason, .overviewDetails, .modules, .coupDetails {
+                    padding-top: 12%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .iskenderQuotes .quotes .quote2 p{
+                    font-size: 20px;
+                    margin-top: 40%;
+        
+                }
+                .iskenderQuotes .quotes .tandaPetik{
+                    margin-top: -30%!important;
+                    
+                }
+                           .iskenderPresent{
+                    background-color: #1f1f1f;
+                    transform: skewY(-3deg);
+                    margin-top: 10%;
+                  
+                
+                }
+                .iskenderPresent .container{
+                    padding-top: calc(15% + 20px);
+                    transform: skewY(3deg);
+                    padding-bottom: calc(15% + 20px);
+                    padding-left: 3%;
+                }
+                .iskenderPresent2 .container{
+                    padding-left: 10%;
+                    padding-bottom: 5%;
+                }
+                .impactContent {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                }
+                
+                
+                .impactImgShp2{
+                    padding-right: 4%;
+                    flex: 1;
+                }
+                
+                .impactImgShp2 p{
+                    text-align: center;
+                    color: #8A8B91;
+                }
+                .impactImg img{
+                    width: 100%;
+                    
+                }
+                
+                .impactImg{
+                    display: flex;
+                    justify-content: center;
+                    
+                    
+                }
+                
+                .impactImgShp2 .impactImg{
+                    justify-content: center;
+                }
+                .impactDescription22, .impactDescription{
+                   margin-top: 8%;
+                    
+                }
+                 .fiveAreas{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                 }  
+                .AreaGroup1{
+                    display: inline-grid;
+                    justify-content: center;
+                    
+                }
+                
+                .AreaGroup2{
+                    display: inline-grid;
+                    justify-content: center;
+        
+                }
+                
+                .area, .theBrandPartner{
+                    display: flex;
+                    width: 300px;
+                    height: 140px;
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    margin-right: 20px;
+                    align-items: center;
+                    justify-content: center;
+                
+                }
+        
+                .computerLeg img{
+                    width: 400px;
+                }
+                .area{
+                    margin-top: 6%;
+                }
+                
+                .area p{
+                    transform: skewY(4deg);
+                
+                }
+        
+                .frameworkCovers{
+                    margin-top: 15%;
+                }
+        
+                .coupFramework {
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    margin-top: 10%;
+                    padding-bottom: 10%;
+                    padding-top: 10%;
+                   
+                }
+                .coupFramework .container {
+                    transform: skewY(4deg);
+                }
+        
+                .experienceDesc {
+                    text-align: left;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .hallImg {
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                .hallImg img{
+                    width: 80%;
+                }
+        
+                .theFramework {
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                #frameworkImg img {
+                    width: 100%;
+                }
+        
+                #frameworkImg{
+                    display: flex;
+                    justify-content: center;
+                }
+                .frameworkCvrTitle h2{
+                    font-size: 32px;
+                }
+                .frameworkBtn{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    letter-spacing: 4px;
+                    width: 354px;
+                    height: 60px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+                .computerLeg img{
+                    width: 100%;
+                }
+                .frameworkBtns{
+                    display: flex;
+                    justify-content: center;
+                }
+        
+        
+                   #joinCoup{
+                       margin-top: 18%;
+                       transform: skewY(-4deg);
+                       background-color: #FF4F51;
+                       background-image: url("images/Group 14.png");
+                  
+                       padding-top: 8%;
+                   padding-bottom: 8%;
+                    
+                   }
+                   
+                   #ctaJoin{
+                       display: block;
+                       justify-content: center;
+                       margin-top: 0;
+                   }
+                   
+                   #ctaJoin h2{
+                       margin: 0;
+                       font-size: 32px;
+                   
+                   }
+                   #ctaJoinBtn button{
+                    margin-top: 25px;
+                    width: 269px;
+                    background-color: white;
+                    color: #FF4F51;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    height: 60px;
+                   }
+                   #ctaJoinBtn{
+                       align-content: center;
+                       display: flex;
+                       justify-content: center;
+                     
+                   }
+                   #joinCoup .container{
+                       transform: skewY(4deg);
+                   }
+                   
+                   footer .container{
+                       display: block;
+                       text-align: center;
+                       padding-bottom: 5%;
+                       margin-top: 20%;
+                   }
+           
+                   .numberPrecentage h3{
+           font-size: 45px;
+                   }
+           
+                   .description p{
+                       font-size: 25px;
+                   }
+                   
+                   #footerLogo{
+                       display: flex;
+                       justify-content: center;
+                   }
+                   
+                   #footerLogo img{
+                    width: 60%;
+                }
+                #footeritems{
+                    padding: 5% 10% 0 0%;
+                }
+                
+                #footeritems ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    text-decoration: none;
+                    list-style-type: none;
+                    
+                    
+                }
+        
+                #footeritems ul li a{
+                    font-size: 16px!important;
+                }
+                
+                #creatorCopyright p{
+                    font-size: 14px;
+                }
+                   
+                   li a{
+                       color: white;
+                       text-decoration: none;
+                       font-family: 'Anton', sans-serif;
+                       text-transform: uppercase;
+                      
+                   }
+}
+@media only screen and (min-width: 320px) and (max-width: 374px){
+
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 26%;
+    }
+    #coupLogo{
+        width: 80%;
+    }
+
+    .titleTheCoup p, .titleOverview P{
+        text-align : center;
+    }
+            .nav, header, section, footer{
+                   padding-left: 6%;
+                   padding-right: 6%;
+                  
+               
+                   
+               }
+
+               .AbtIskenderBtn{
+                display: flex;
+                justify-content: center;
+
+            }
+            .AbtIskenderBtn button{
+                width: 290px!important;
+                height: 60px;
+                letter-spacing: 1px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+
+                
+            }
+    h1{
+        font-size: 48px;
+        zoom: 0.7;
+    }
+
+    h2{
+        font-size: 28px!Important;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+  
+               
+
+               .brandImagesmobile{
+                display: flex;
+                flex-direction: column;
+            }
+               body{
+                   width: fit-content;
+               }
+                   header .container{
+                       display: grid;
+                       overflow: hidden;
+                       grid-template-areas: 
+                           "head ."
+                           "brands .";
+                   
+                   }
+                   
+                   .nav-links{
+                       width: 60%;
+                   }
+                   
+                   button{
+                       background-color: #FF4F51;
+                       width: 200px;
+                       height: 60px;
+                       padding-top: 18px;
+                       padding-bottom: 18px;
+                       padding-left: 32px;
+                       padding-right: 32px;
+                       font-size: 16px;
+                       font-family: 'Anton', sans-serif;
+                       color: white;
+                       text-transform: uppercase;
+                       border: transparent;
+                       border-radius: 50px;
+                       margin-top: 48px;
+                       letter-spacing: 2px;
+                   }
+                   .headImage{
+                       display: inherit;
+                       width: 100%;
+                       align-items: center;
+                       justify-content: flex-start;
+                       grid-area: headImage;
+                   }
+                   
+                   .headImage img{
+                       width: 90%;
+                       
+                       height: auto;
+                      
+                   }
+                   .headContent{
+                       width: 100%;
+                       
+                       grid-area: headContent;
+                      
+                     }
+                   
+                     .headContent h1{
+                       font-size: 60px;
+                       text-transform: uppercase;
+                       
+                     }
+                   
+                     .headContent p{
+                        
+                         font-size: 14px;
+                        
+                   
+                   
+                     }
+                   
+                   .brands{
+                       margin-top: 60px;
+                       grid-area: brands;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                   }
+                   
+                   .brands p{
+                       font-size: 16px;
+                   }
+                   
+                   .brandImages{
+                       display: none;
+                       
+                   }
+                   
+                   .mobileRow{
+                       display: flex;
+                       justify-content: space-evenly;
+                   }
+                   .brandImg{
+                       display: inherit;
+                       align-items: center;
+                       height: 75px;
+                   }
+                   
+                   .brandImg img{
+                       width: 100px;
+                   }
+                   
+                   #facts1, #theCoup, .theLecturer, .stopWasting, #overview, #coursePackage{
+  
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    padding-top: 4%;
+                    padding-bottom: 10%;
+                    margin-top: 4%;
+                }
+                
+                #facts1 .container, #theCoup .container, .theLecturer .container, .stopWasting .container, #overview .container, .coursePricePackage, .coupDetails, .theDetails .container{
+                    transform: skewY(4deg);
+                }
+                   .publicspeaking{
+                       display: flex;
+                   flex-direction: column;
+                      
+                      
+                       font-family: 'Anton', sans-serif;
+                   }
+                   
+                   .skill {
+                       grid-area: skill; 
+                      
+                   }
+                   
+                   .buffet h5, .skill h5{
+                       font-size: 32px;
+                   }
+                   
+                   
+                   .buffet{
+                       grid-area: buffet;
+                   }
+                   
+                   
+                   .head{
+                     
+                       grid-area: head;
+                       display: grid;
+                       grid-template-areas: 
+                       "headImage ."
+                       "headContent .";
+                   
+                       
+                   
+                   }
+           
+                   
+                   .seperator{
+                       width: 100%;
+                       background-color: rgba(255, 255, 255, 0.151);
+                       height: 1px;
+                       transform: skewY(-4deg);
+                       
+                     
+                   }
+                   .quotes{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                       align-items: center;
+                       margin-top: 2%!important;
+                   }
+                   
+                   .tandaPetik{
+                       position: absolute;
+                       z-index: 1;
+                       margin-top: -60px;
+                   }
+                   
+                   .theQuote{
+                       margin-top: 18%;
+               
+                       
+                   }
+                   
+                   .theQuote p{
+                       font-family: 'roboto', sans-serif;
+                       font-size: 25px;
+                       line-height: 40px!important;
+                      
+                   }
+                   
+                   .theQuote h5{
+                       font-size: 25px;
+                       font-family: 'Anton', sans-serif;
+                   }
+                   
+                   .themadness{
+                       background-image: url("images/guySighs.png");
+                       background-repeat: no-repeat;
+                       background-size: 200%;
+                       background-position-x: -200px;
+                       margin-top: -30px;
+           
+                   }
+                   .themadness .container{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       text-align: center;
+                     
+                   }
+                   .dataPrecentage{
+                       margin-right: 0;
+                       display: flex;
+                       flex-direction: column;
+                       z-index: 1;
+                       justify-content: space-between;
+                       margin-top: 3%;
+                   }
+                   #firstLinedata, #secondLinedata{
+                       display: flex;
+                       flex-direction: column;
+                       text-align: left;
+                   }
+                   
+                   .dataImg{
+                       display: none;
+                   
+                   }
+                   
+                   .dataImg img{
+                       position: absolute;
+                   
+                   }
+                   .stopmadness{
+                       margin-top: 15%;
+                   }
+                   .stopmadness img{
+                       width: 260px;
+                   }
+                   
+                   #theCoup .container .quotes .tandaPetik{
+                       margin-top: -50%!important;
+                   }
+
+                   
+                   .quote2{
+                       width: 80%;
+                   
+                   }
+                   #theCoup .container .quotes .tandaPetik{
+                       margin-top: -90%!important;
+                       width: 50%;
+                   }
+                   
+                   .jobPosition{
+                       font-size: 18px!important;
+                       color: #8A8B91;
+                       
+                   }
+                   
+                   #coupFor, #overviewTarget{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    padding-right: 5%;
+            padding-left: 5%;
+                }
+                
+                .parCol{
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    padding: 15% 18% 15% 12%;
+                    margin-bottom: 10%;
+                }
+                
+               
+                .parCol h3{
+                    text-transform: uppercase;
+                }
+               
+                
+                .parCol h3, .parCol ul, .parCol P{
+                    transform: skewY(3deg);
+                    width: 90%;
+                }
+        
+                .moduleDropHead a {
+                    display: flex;
+                    align-items: center;
+                }
+                .moduleDropContent {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .LineModule {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                }
+                .theModule {
+                    margin-left: 2%;
+                    
+                    flex: 1;
+                }
+                .theContentDesc p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    
+                }
+                .theContent{
+                    margin-top: 10%;
+                }
+                .theModuleSub p{
+                    font-size: 14px;
+                }
+                .stepContainer {
+                    position: relative;
+                    text-align: center;
+                    padding: 12px;
+                    margin-bottom: 6px;
+                    height: 200px;
+                    width: 200px;
+                    transform: rotate(-90deg);
+                }
+                .stepContainer:before {
+                    
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                .stepContainer:after {
+                   
+                    height: 100%;
+                    width: 50%;
+                   
+                }
+                #onlineCourseFun .container {
+                    padding-top: 15%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .funContents {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    text-align: center;
+                }
+                .onlineCourseBtns {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+              
+                .NoFillBtn {
+                    margin-right: 2%;
+                }
+                .NoFillBtn button {
+                    width: 280px;
+                    height: 60px;
+                    background-color: transparent;
+                    border: 1px solid #FF4F51;
+                    font-size: 12px!important;
+                    letter-spacing: 1px;
+                }
+        
+                .onlineCourseBtns div:last-child button{
+                    width: 280px;
+                    height: 60px;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    margin-top: 5%;
+                }
+                .coursePricePackage {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .priceDetail {
+                    display: inline-grid;
+                    justify-items: center;
+                    margin-top: 10%;
+                    padding: 0 10% 0 10%;
+                }
+                .priceNumber {
+                    background-image: url("images/Group 4 (1).svg");
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 182px;
+                    padding-top: 11%;
+                    position: relative;
+                    z-index: 1;
+                }
+                .priceNumber h3 {
+                    line-height: 0px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    margin-right: 10%;
+                }
+                .priceNumber p {
+                    line-height: 18px;
+                    transform: skewY(-3deg);
+                    text-align: right;
+                    font-size: 12px!important;
+                    margin-right: 10%;
+                }
+                .theDetails {
+                    background-color: #181818;
+                    transform: skewY(-4deg);
+                    padding-top: 40%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    padding-bottom: 10%;
+                    width: 100%;
+                    margin-top: -50%;
+                    position: relative;
+                    z-index: 0;
+                }
+                   #coupAbr{
+                       margin-top: 20%;
+                       display: block;
+                       justify-content: center;
+                       text-align: center;
+                       padding-left: 10%;
+                       padding-right: 10%;
+                       
+                   }
+
+                   #coupAbr h2{
+                       font-size: 32px;
+                       line-height: 18px;
+                   }
+                   #coupAbr h3{
+                       color: white;
+                       text-transform: uppercase;
+                   }
+           
+                   #coupAbr p{
+           
+                       font-size: 16px;
+                   }
+                   .against li, .forz li{
+                       font-size: 12px!important;
+                       line-height: 25px;
+                   }
+                   #coupAbr h2{
+                       line-height: 50px;
+                       color: grey;
+                       text-transform: uppercase;
+                   }
+                   #coupAbr h2 span{
+                       color: white;
+                       background-color: transparent;
+                       padding: 0;
+                   }
+                   #lecturerContent{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                   
+                }
+
+                #lecturerContent .iskenderImg img{
+                    width: 70%;
+                }
+                .aboutlecturer{
+                    margin-top: -10%;
+                    display: inline-grid;
+                    justify-items: center;
+        
+                }
+                .aboutlecturer h3, .aboutlecturer h2, .aboutlecturer p, .aboutlecturer button{
+                    margin: 0px 0px 10px 0px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    
+                }
+                
+                .aboutlecturer p{
+                    text-transform: capitalize;
+                }
+                
+                .aboutlecturer button{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    width: 212px!important;
+                    font-size: 16px;
+                }
+                .aboutlecturer button img{
+                    margin-right: 10%!important;
+                }
+
+                .aboutlecturer h2{
+                    font-size: 32px!important;
+                }
+                .brandPartner{
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    margin-top: 10%;
+        
+                }
+                .theBrandPartner{
+                    width: 250px!important;
+                    margin-right: 0px!important;
+                    height: 150px!important;
+                    margin-bottom: 8%;
+                }
+                .theBrandPartner img{
+                    width: 120px;
+                    transform: skewY(3deg);
+                }
+                .theBrandPartner:first-child img{
+                    width: 100px;
+                }
+                .socialMedia{
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    width: 50%;
+                    padding: 0 10% 0 10%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                
+                .iskenderExperiences {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                }
+                .iskenderExp {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    padding-left: 10%;
+                }
+                .iskenderExp li {
+                    flex: 1;
+                    margin-right: 10%;
+                }
+                .seperator2 {
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0.151);
+                    height: 1px;
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                }
+        
+                .stopWastingReason, .overviewDetails, .modules, .coupDetails {
+                    padding-top: 12%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .iskenderQuotes .quotes .quote2 p{
+                    font-size: 18px;
+                    margin-top: 40%;
+        
+                }
+                .iskenderQuotes .quotes .tandaPetik{
+                    margin-top: -56%!important;
+                    width: 40%;
+                    
+                }
+                   .iskenderPresent{
+                    background-color: #1f1f1f;
+                    transform: skewY(-3deg);
+                    margin-top: 10%;
+                  
+                
+                }
+                .iskenderPresent .container{
+                    padding-top: calc(15% + 20px);
+                    transform: skewY(3deg);
+                    padding-bottom: calc(15% + 20px);
+                    padding-left: 3%;
+                }
+                .iskenderPresent2 .container{
+                    padding-left: 10%;
+                    padding-bottom: 5%;
+                }
+                .impactContent {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                }
+                
+                
+                .impactImgShp2{
+                    padding-right: 4%;
+                    flex: 1;
+                }
+                
+                .impactImgShp2 p{
+                    text-align: center;
+                    color: #8A8B91;
+                }
+                .impactImg img{
+                    width: 100%;
+                    
+                }
+                
+                .impactImg{
+                    display: flex;
+                    justify-content: center;
+                    
+                    
+                }
+                
+                .impactImgShp2 .impactImg{
+                    justify-content: center;
+                }
+                .impactDescription22, .impactDescription{
+                   margin-top: 8%;
+                    
+                }
+                 .fiveAreas{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                 }  
+                .AreaGroup1{
+                    display: inline-grid;
+                    justify-content: center;
+                    
+                }
+                
+                .AreaGroup2{
+                    display: inline-grid;
+                    justify-content: center;
+        
+                }
+                
+                .area, .theBrandPartner{
+                    display: flex;
+                    width: 250px;
+                    height: 140px;
+                    background-color: #181818;
+                    transform: skewY(-3deg);
+                    margin-right: 20px;
+                    align-items: center;
+                    justify-content: center;
+                
+                }
+        
+                .computerLeg img{
+                    width: 400px;
+                }
+                .area{
+                    margin-top: 6%;
+                }
+                
+                .area p{
+                    transform: skewY(4deg);
+                
+                }
+        
+                .frameworkCovers{
+                    margin-top: 15%;
+                }
+        
+                .coupFramework {
+                    background-color: #1f1f1f;
+                    transform: skewY(-4deg);
+                    margin-top: 10%;
+                    padding-bottom: 10%;
+                    padding-top: 10%;
+                   
+                }
+                .coupFramework .container {
+                    transform: skewY(4deg);
+                }
+        
+                .experienceDesc {
+                    text-align: left;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                .hallImg {
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                .hallImg img{
+                    width: 80%;
+                }
+        
+                .theFramework {
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+        
+                #frameworkImg img {
+                    width: 100%;
+                }
+        
+                #frameworkImg{
+                    display: flex;
+                    justify-content: center;
+                }
+                .frameworkCvrTitle h2{
+                    font-size: 32px;
+                }
+                .frameworkBtn{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    letter-spacing: 4px;
+                    width: 354px;
+                    height: 60px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+                .computerLeg img{
+                    width: 100%;
+                }
+                .frameworkBtns{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                   #joinCoup{
+                       margin-top: 18%;
+                       transform: skewY(-4deg);
+                       background-color: #FF4F51;
+                       background-image: url("images/Group 14.png");
+                  
+                       padding-top: 8%;
+                   padding-bottom: 8%;
+                    
+                   }
+                   
+                   #ctaJoin{
+                       display: block;
+                       justify-content: center;
+                       margin-top: 0;
+                   }
+                   
+                   #ctaJoin h2{
+                       margin: 0;
+                       font-size: 32px;
+                   
+                   }
+                   #ctaJoinBtn button{
+                    margin-top: 25px;
+                    width: 269px;
+                    background-color: white;
+                    color: #FF4F51;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    height: 60px;
+                   }
+                   #ctaJoinBtn{
+                       align-content: center;
+                       display: flex;
+                       justify-content: center;
+                     
+                   }
+                   #joinCoup .container{
+                       transform: skewY(4deg);
+                   }
+                   
+                   footer .container{
+                       display: block;
+                       text-align: center;
+                       padding-bottom: 5%;
+                       margin-top: 20%;
+                   }
+           
+                   .numberPrecentage h3{
+           font-size: 45px;
+                   }
+           
+                   .description p{
+                       font-size: 25px;
+                   }
+                   
+                   #footerLogo{
+                       display: flex;
+                       justify-content: center;
+                   }
+                   
+                   #footerLogo img{
+                       width: 60%;
+                   }
+                   #footeritems{
+                       padding: 5% 10% 0 0%;
+                   }
+                   
+                   #footeritems ul{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-evenly;
+                       text-decoration: none;
+                       list-style-type: none;
+                       
+                       
+                   }
+           
+                   #footeritems ul li a{
+                       font-size: 16px!important;
+                   }
+                   
+                   #creatorCopyright p{
+                       font-size: 14px;
+                   }
+                   li a{
+                       color: white;
+                       text-decoration: none;
+                       font-family: 'Anton', sans-serif;
+                       text-transform: uppercase;
+                      
+                   }
+}

@@ -1,0 +1,4863 @@
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button{
+    cursor: pointer;
+}
+@font-face {
+    font-family: anton;
+    src: url(Anton.ttf);
+  }
+  .box {
+    width: 230px;
+    height: 120px;
+    background-color: black;
+    color: #fff;
+    padding: 50px 5px 50px 0px;
+    position: relative;
+    margin: 20px 0 0 -4%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #1f1f1f;
+    position: absolute;
+    opacity: 0;
+
+  }
+  .box.arrow-top {
+    margin-top: 20px;
+ 
+  }
+
+  .box ul li a{
+      font-size: 14px;
+      
+  }
+  .box ul{
+    width: 100%;
+    list-style-type: none;
+}
+  .box.arrow-top:after {
+    
+    content: " ";
+    position: absolute;
+    margin-left: 60px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+  }
+
+.nav-links li a::after{
+    display: block;
+    opacity: 0;
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: #FF4F51;
+    text-align: center;
+}
+
+.nav-links li a:hover:after, .nav-links li a:hover{
+   opacity: 1;
+   transition: 0.5s;
+   width: 25px;
+   color: #FF4F51;
+}
+.nav .container{
+    padding: 3% 0 2% 0;
+}
+
+body{
+    margin-top: -40px;
+    background-color: #181818;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-image: url("images/Group 14.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#joinCoup{
+    background-image: url("images/Group 14@2x.svg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.brandImagesmobile{
+    display: none;
+}
+
+.nav, header, section, footer{
+    padding-left: 13%;
+    padding-right: 13%;
+   
+
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.nav-links li a{
+    font-size: 14px!important;
+    letter-spacing: 1px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links{
+    list-style-type: none;
+    display: inherit;
+    justify-content: space-evenly;
+    width: 65%;
+    align-items: center;
+
+
+}
+span{
+    padding-left: 2%;
+    padding-right: 1%;
+   background-color: white;
+   color: black;
+    
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Anton' , sans-serif;
+    -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
+    letter-spacing: 1px;
+    font-weight: 500;
+ 
+
+
+}
+
+.frameworkBtn:first-child{
+    background-color: transparent;
+    border: 1px solid #FF4F51;
+}
+h4{
+    font-size: 32px;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 32px;
+        text-transform: uppercase;
+}
+p, a, li{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+
+.row{
+
+    margin-top: 8%; 
+}
+
+.nav-links button{
+    margin-top: 0px;
+}
+
+@media only screen and (min-width: 1920px) and (max-width:2560px){
+    
+
+    body{
+        zoom: 1.5;
+    }
+    .nav, header, section, footer{
+        padding-left: 15%;
+        padding-right: 18%;
+       
+    
+        
+    }
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 104, 107);
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+      .HeadImg, .workshopDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .HeadImg{
+        flex-direction: unset;
+    }
+    
+    .HeadImg img{
+        width: 100%;
+    }
+    
+    .InquireShow{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .InquireShow button{
+        width: 321px;
+    }
+    
+    .galleryWorkshop{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -50%;
+       
+    }
+    
+    .galleryWorkshop .container{
+        padding-top: 90%;
+        padding-bottom: 30%;
+        transform: skewY(4deg);
+        
+    }
+    
+    .theGallery{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "first second";
+        grid-gap: 4%;
+        
+    }
+    
+    .theGalleryImg{
+        margin-bottom: 8%;
+    }
+    
+    .galleryFirstCol{
+        grid-area: first;
+        overflow: hidden;
+    }
+    
+    .gallerySecondCol{
+        grid-area: second;
+        overflow: hidden;
+    }
+    
+    .ourMission .container{
+        transform: skewY(4deg);
+        padding: 8% 0% 10% 0%;
+    }
+        
+    
+    .missions, .theMission {
+        margin-top: 15%
+    }
+    .missionDesc p{
+        margin-top: 8%;
+    }
+    
+    
+    
+    
+    
+    .brands{
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img{
+        width: 65%;
+       
+    }
+    
+    .titleDifficulty{
+      
+        margin-top: 10%;
+    }
+    .factDifficulty{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .factDifContent{
+        width: 270px;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .factImg{
+        width: 270px;
+        height: 262px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    #difficulty, .fullStory, .ourMission{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    #facts1 .container, #difficulty .container{
+        transform: skewY(4deg);
+    }
+    
+    
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .OpenpdfBtn img{
+        width: 149px;
+        height: 85px;
+        margin-left: 15%;
+    }
+    
+    .LecturerBtns, .getEvidence{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .LecturerBtn{
+        width: 233px;
+    }
+    
+    
+    .reportDetailed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .frameVideo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #testimonials{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -20%;
+    }
+    #testimonials .container{
+        padding-top: 70%;
+        transform: skewY(4deg);
+        padding-bottom: 10%;
+    }
+    .revContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10%;
+    }
+    
+    .revQuote .tandaPetik{
+        margin-top: -20px;
+        width: 10%;
+    }
+    
+    .revQuote p, .revPerson{
+        padding-left: 3%;
+    }
+    .revContImg{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        
+      
+    }
+    .fullStory .container{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .fs{
+        margin: 15% 0 15% 0;
+    }
+    
+    .fsContent p{
+        margin-top: 60px;
+        line-height: 32px;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+       
+    
+    }
+    
+    
+    
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .theQuote{
+        margin-top: 18%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    
+    p a{
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #difficulty .container .quotes .tandaPetik{
+        margin-top: -2%!important;
+    }
+    .quote2{
+        width: 100%;
+    
+    }
+    
+    .fsTitle h2{
+    text-align: left;
+    }
+    
+    .revCont{
+        flex: auto;
+    }
+    
+    .revPerson{
+        padding-top: 4%;
+    }
+    .revPerson h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .revPerson p{
+        margin-top: -16px;
+    }
+    
+    .revPerson .jobPosition{
+        color: grey;
+        font-size: 12px;
+    
+    }
+    
+    
+    #joinCoup{
+        
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    #footerLogo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo{
+    
+    }
+    #footeritems{
+        padding: 5% 25% 0 22%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    
+    
+    
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+    }
+@media only screen and (min-width: 1400px) and (max-width:1680px){
+        header .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "head ."
+                "brands .";
+        
+        }
+        body{
+            zoom: 1.15;
+        }
+        .nav, header, footer{
+            padding-left: 15%;
+            padding-right: 15%;
+           
+        
+            
+        }
+
+        section{
+            padding-left: 18%;
+            padding-right: 18%;
+        }
+        button:focus {
+            outline: none!important;
+        }
+        
+        button:hover{
+            background-color: rgb(255, 104, 107);
+        }
+        button{
+            background-color: #FF4F51;
+            width: 202px;
+            height: 60px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            border: transparent;
+            border-radius: 50px;
+            margin-top: 48px;
+            letter-spacing: 2px;
+        }
+        
+        .headContent{
+            width: 100%;
+           
+          }
+        
+          .headContent h1{
+            font-size: 72px;
+            text-transform: uppercase;
+            
+          }
+        
+          .headContent p{
+             width: 470px;
+        
+          }
+        
+          .HeadImg, .workshopDesc{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .HeadImg{
+            flex-direction: unset;
+        }
+        
+        .HeadImg img{
+            width: 100%;
+        }
+        
+        .InquireShow{
+            display: flex;
+            justify-content: center;
+        
+        }
+        
+        .InquireShow button{
+            width: 321px;
+        }
+        
+        .galleryWorkshop{
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: -50%;
+           
+        }
+        
+        .galleryWorkshop .container{
+            padding-top: 90%;
+            padding-bottom: 30%;
+            transform: skewY(4deg);
+            
+        }
+        
+        .theGallery{
+            display: grid;
+            justify-content: center;
+            grid-template-areas: "first second";
+            grid-gap: 4%;
+            
+        }
+        
+        .theGalleryImg{
+            margin-bottom: 8%;
+        }
+        
+        .galleryFirstCol{
+            grid-area: first;
+            overflow: hidden;
+        }
+        
+        .gallerySecondCol{
+            grid-area: second;
+            overflow: hidden;
+        }
+        
+        .ourMission .container{
+            transform: skewY(4deg);
+            padding: 8% 8% 10% 8%;
+        }
+            
+        
+        .missions, .theMission {
+            margin-top: 15%
+        }
+        .missionDesc p{
+            margin-top: 8%;
+        }
+        
+        
+        
+        
+        
+        .brands{
+            grid-area: brands;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .brands p{
+            font-size: 12px;
+        }
+        
+        .brandImages{
+            margin-top: 12px;
+            justify-content: space-evenly;
+            display: inherit;
+            
+        }
+        
+        .brandImg{
+            display: inherit;
+            align-items: center;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .brandImg img{
+            width: 65%;
+           
+        }
+        
+        .titleDifficulty{
+          
+            margin-top: 10%;
+        }
+        .factDifficulty{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .factDifContent{
+            width: 270px;
+            padding-right: 3%;
+            padding-left: 3%;
+        }
+        .factImg{
+            width: 270px;
+            height: 262px;
+            background-color: #181818;
+            transform: skewY(-3deg);
+        
+        }
+        
+        .coupFramework{
+            text-align: center;
+            padding-top: 10%;
+        
+            h2{
+                font-size: 32px;
+            }
+        }
+        
+        .frameworkBtn{
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 4px;
+            width: 354px;
+            height: 60px;
+        }
+        
+        #frameworkImg{
+        display: flex;
+        justify-content: center;
+        }
+        
+        #frameworkImg img{ 
+           width: 530px;
+            }
+        
+        #difficulty, .fullStory, .ourMission{
+          
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            padding-top: 5%;
+            padding-bottom: 10%;
+            margin-top: 5%;
+        }
+        
+        #facts1 .container, #difficulty .container{
+            transform: skewY(4deg);
+        }
+        
+        
+        .publicspeaking{
+            display: grid;
+            grid-template-areas: 
+            "skill buffet";
+            grid-gap: 100px;
+            font-size: 20px!important;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .skill {
+            grid-area: skill; 
+           
+        }
+        
+        .buffet h5, .skill h5{
+            font-size: 35px;
+        }
+        
+        
+        .buffet{
+            grid-area: buffet;
+        }
+        
+        
+        .head{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .OpenpdfBtn img{
+            width: 149px;
+            height: 85px;
+            margin-left: 15%;
+        }
+        
+        .LecturerBtns, .getEvidence{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .LecturerBtn{
+            width: 233px;
+        }
+        
+        
+        .reportDetailed{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .frameVideo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        
+        #testimonials{
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: -30%;
+        }
+        #testimonials .container{
+            padding-top: 60%;
+            transform: skewY(4deg);
+            padding-bottom: 10%;
+        }
+        .revContent{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10%;
+        }
+        
+        .revQuote .tandaPetik{
+            margin-top: -20px;
+            width: 10%;
+        }
+        
+        .revQuote p, .revPerson{
+            padding-left: 3%;
+        }
+        .revContImg{
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+        
+        .seperator{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            transform: skewY(-4deg);
+            
+          
+        }
+        .fullStory .container{
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+        .fs{
+            margin: 15% 0 15% 0;
+        }
+        
+        .fsContent p{
+            margin-top: 60px;
+            line-height: 32px;
+        }
+        
+        .frameworkBtns2{
+            margin-top: -10%;
+            display: flex;
+            justify-content: center;
+        }
+        .frameworkBtns2 button{
+            width: 267px;
+            height: 60px;
+        
+        }
+        
+        
+        
+        .quotes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%!important;
+        }
+        
+        .tandaPetik{
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .theQuote{
+            margin-top: 18%;
+            width: 60%;
+            
+        }
+        
+        .theQuote p{
+            font-family: 'roboto', sans-serif;
+            font-size: 32px;
+            line-height: 48px!important;
+           
+        }
+        
+        .theQuote h5{
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .themadness .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          
+        }
+        
+        p a{
+            color: white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        
+        .dataPrecentage{
+            margin-right: 0;
+            display: flex;
+            z-index: 1;
+            justify-content: space-between;
+            margin-top: 3%;
+        }
+        #firstLinedata {
+            text-align: right!important;
+            justify-items: right;
+            width: 330px;
+        }
+        
+        
+        #secondLinedata{
+            text-align: left!Important;
+            width: 330px;
+        }
+        
+        .dataImg{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        
+        }
+        
+        .dataImg img{
+            position: absolute;
+        
+        }
+        .stopmadness{
+            margin-top: 15%;
+        }
+        .stopmadness img{
+            width: 320px;
+        }
+        
+        #difficulty .container .quotes .tandaPetik{
+            margin-top: -2%!important;
+        }
+        .quote2{
+            width: 100%;
+        
+        }
+        
+        .fsTitle h2{
+        text-align: left;
+        }
+        
+        .revCont{
+            flex: auto;
+        }
+        
+        .revPerson{
+            padding-top: 4%;
+        }
+        .revPerson h4{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        .revPerson p{
+            margin-top: -16px;
+        }
+        
+        .revPerson .jobPosition{
+            color: grey;
+            font-size: 12px;
+        
+        }
+        
+        
+        #joinCoup{
+            
+            transform: skewY(-4deg);
+            background-color: #FF4F51;
+            background-image: url("images/Group 14.png");
+            padding-top: 10%;
+            padding-bottom: 10%;
+         
+        }
+        
+        
+        
+        #ctaJoin{
+            display: block;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        #ctaJoin h2{
+            margin: 0;
+        }
+        #ctaJoinBtn button{
+            margin-top: 25px;
+            width: 269px;
+            background-color: white;
+            color: #FF4F51;
+        }
+        #ctaJoinBtn{
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+        }
+        #joinCoup .container{
+            transform: skewY(4deg);
+        }
+        
+        .workshopDescText{
+            display: flex;
+            justify-content: center;
+        }
+        .workshopDescText h3{
+            width: 100%;
+        }
+        footer .container{
+            display: block;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        
+        #footerLogo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #footerLogo{
+        
+        }
+        #footeritems{
+            padding: 5% 25% 0 22%;
+        }
+        
+        #footeritems ul{
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            list-style-type: none;
+            
+        }
+        
+        
+        
+        
+        li a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+        }
+        }
+/*desktop*/
+@media only screen and (min-width: 1200px) and (max-width:1399px){
+header .container{
+    display: grid;
+    
+    grid-template-areas: 
+        "head ."
+        "brands .";
+
+}
+.nav, header, section, footer{
+    padding-left: 18%;
+    padding-right: 20%;
+   
+
+    
+}
+button:focus {
+    outline: none!important;
+}
+
+button:hover{
+    background-color: rgb(255, 104, 107);
+}
+button{
+    background-color: #FF4F51;
+    width: 202px;
+    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 50px;
+    margin-top: 48px;
+    letter-spacing: 2px;
+}
+
+.headContent{
+    width: 100%;
+   
+  }
+
+  .headContent h1{
+    font-size: 72px;
+    text-transform: uppercase;
+    
+  }
+
+  .headContent p{
+     width: 470px;
+
+  }
+
+  .HeadImg, .workshopDesc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HeadImg{
+    flex-direction: unset;
+}
+
+.HeadImg img{
+    width: 100%;
+}
+
+.InquireShow{
+    display: flex;
+    justify-content: center;
+
+}
+
+.InquireShow button{
+    width: 321px;
+}
+
+.galleryWorkshop{
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    margin-top: -50%;
+   
+}
+
+.galleryWorkshop .container{
+    padding-top: 90%;
+    padding-bottom: 30%;
+    transform: skewY(4deg);
+    
+}
+
+.theGallery{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "first second";
+    grid-gap: 4%;
+    
+}
+
+.theGalleryImg{
+    margin-bottom: 8%;
+}
+
+.galleryFirstCol{
+    grid-area: first;
+    overflow: hidden;
+}
+
+.gallerySecondCol{
+    grid-area: second;
+    overflow: hidden;
+}
+
+.ourMission .container{
+    transform: skewY(4deg);
+    padding: 8% 8% 10% 8%;
+}
+    
+
+.missions, .theMission {
+    margin-top: 15%
+}
+.missionDesc p{
+    margin-top: 8%;
+}
+
+
+
+
+
+.brands{
+    grid-area: brands;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.brands p{
+    font-size: 12px;
+}
+
+.brandImages{
+    margin-top: 12px;
+    justify-content: space-evenly;
+    display: inherit;
+    
+}
+
+.brandImg{
+    display: inherit;
+    align-items: center;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.brandImg img{
+    width: 65%;
+   
+}
+
+.titleDifficulty{
+  
+    margin-top: 10%;
+}
+.factDifficulty{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.factDifContent{
+    width: 270px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.factImg{
+    width: 270px;
+    height: 262px;
+    background-color: #181818;
+    transform: skewY(-3deg);
+
+}
+
+.coupFramework{
+    text-align: center;
+    padding-top: 10%;
+
+    h2{
+        font-size: 32px;
+    }
+}
+
+.frameworkBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 4px;
+    width: 354px;
+    height: 60px;
+}
+
+#frameworkImg{
+display: flex;
+justify-content: center;
+}
+
+#frameworkImg img{ 
+   width: 530px;
+    }
+
+#difficulty, .fullStory, .ourMission{
+  
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-top: 8%;
+}
+
+#facts1 .container, #difficulty .container{
+    transform: skewY(4deg);
+}
+
+
+.publicspeaking{
+    display: grid;
+    grid-template-areas: 
+    "skill buffet";
+    grid-gap: 100px;
+    font-size: 20px!important;
+    font-family: 'Anton', sans-serif;
+}
+
+.skill {
+    grid-area: skill; 
+   
+}
+
+.buffet h5, .skill h5{
+    font-size: 35px;
+}
+
+
+.buffet{
+    grid-area: buffet;
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.OpenpdfBtn img{
+    width: 149px;
+    height: 85px;
+    margin-left: 15%;
+}
+
+.LecturerBtns, .getEvidence{
+    display: flex;
+    justify-content: center;
+}
+
+.LecturerBtn{
+    width: 233px;
+}
+
+
+.reportDetailed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frameVideo{
+    display: flex;
+    justify-content: center;
+}
+
+
+#testimonials{
+    background-color: #1f1f1f;
+    transform: skewY(-4deg);
+    margin-top: -30%;
+}
+#testimonials .container{
+    padding-top: 60%;
+    transform: skewY(4deg);
+    padding-bottom: 10%;
+}
+.revContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10%;
+}
+
+.revQuote .tandaPetik{
+    margin-top: -20px;
+    width: 10%;
+}
+
+.revQuote p, .revPerson{
+    padding-left: 3%;
+}
+.revContImg{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.seperator{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 1px;
+    transform: skewY(-4deg);
+    
+  
+}
+.fullStory .container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.fs{
+    margin: 15% 0 15% 0;
+}
+
+.fsContent p{
+    margin-top: 60px;
+    line-height: 32px;
+}
+
+.frameworkBtns2{
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+}
+.frameworkBtns2 button{
+    width: 267px;
+    height: 60px;
+
+}
+
+
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%!important;
+}
+
+.tandaPetik{
+    position: absolute;
+    z-index: 1;
+}
+
+.theQuote{
+    margin-top: 18%;
+    width: 60%;
+    
+}
+
+.theQuote p{
+    font-family: 'roboto', sans-serif;
+    font-size: 32px;
+    line-height: 48px!important;
+   
+}
+
+.theQuote h5{
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+}
+
+.themadness .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+p a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.dataPrecentage{
+    margin-right: 0;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+#firstLinedata {
+    text-align: right!important;
+    justify-items: right;
+    width: 330px;
+}
+
+
+#secondLinedata{
+    text-align: left!Important;
+    width: 330px;
+}
+
+.dataImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.dataImg img{
+    position: absolute;
+
+}
+.stopmadness{
+    margin-top: 15%;
+}
+.stopmadness img{
+    width: 320px;
+}
+
+#difficulty .container .quotes .tandaPetik{
+    margin-top: -2%!important;
+}
+.quote2{
+    width: 100%;
+
+}
+
+.fsTitle h2{
+text-align: left;
+}
+
+.revCont{
+    flex: auto;
+}
+
+.revPerson{
+    padding-top: 4%;
+}
+.revPerson h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.revPerson p{
+    margin-top: -16px;
+}
+
+.revPerson .jobPosition{
+    color: grey;
+    font-size: 12px;
+
+}
+
+
+#joinCoup{
+    
+    transform: skewY(-4deg);
+    background-color: #FF4F51;
+    background-image: url("images/Group 14.png");
+    padding-top: 10%;
+    padding-bottom: 10%;
+ 
+}
+
+
+
+#ctaJoin{
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#ctaJoin h2{
+    margin: 0;
+}
+#ctaJoinBtn button{
+    margin-top: 25px;
+    width: 269px;
+    background-color: white;
+    color: #FF4F51;
+}
+#ctaJoinBtn{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  
+}
+#joinCoup .container{
+    transform: skewY(4deg);
+}
+
+.workshopDescText{
+    display: flex;
+    justify-content: center;
+}
+.workshopDescText h3{
+    width: 100%;
+}
+footer .container{
+    display: block;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#footerLogo{
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo{
+
+}
+#footeritems{
+    padding: 5% 25% 0 22%;
+}
+
+#footeritems ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width:1199px){
+
+    .nav, header, section, footer{
+        padding-left: 12%;
+        padding-right: 10%;}
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 104, 107);
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+      .HeadImg, .workshopDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .HeadImg{
+        flex-direction: unset;
+    }
+    
+    .HeadImg img{
+        width: 100%;
+    }
+    
+    .InquireShow{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .InquireShow button{
+        width: 321px;
+    }
+    
+    .galleryWorkshop{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -68%;
+       
+    }
+    
+    .galleryWorkshop .container{
+        padding-top: 105%;
+        padding-bottom: 30%;
+        transform: skewY(4deg);
+        
+    }
+    
+    .theGallery{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "first second";
+        grid-gap: 0%;
+        
+    }
+    
+    .theGalleryImg{
+        margin-bottom: 6%;
+    }
+
+    .theGalleryImg img{
+        width: 90%;
+    }
+    
+    .galleryFirstCol{
+        grid-area: first;
+        overflow: hidden;
+    }
+    
+    .gallerySecondCol{
+        grid-area: second;
+        overflow: hidden;
+    }
+    
+    .ourMission .container{
+        transform: skewY(4deg);
+        padding: 8% 0% 10% 0%;
+    }
+        
+    
+    .missions, .theMission {
+        margin-top: 15%
+    }
+    .missionDesc p{
+        margin-top: 4%;
+    }
+    
+    
+    
+    
+    
+    .brands{
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img{
+        width: 65%;
+       
+    }
+    
+    .titleDifficulty{
+      
+        margin-top: 10%;
+    }
+    .factDifficulty{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .factDifContent{
+        width: 200px;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .factImg{
+        width: 200px;
+        height: 192px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    #difficulty, .fullStory, .ourMission{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #facts1 .container, #difficulty .container{
+        transform: skewY(4deg);
+    }
+    
+    .fullStory .quotes .tandaPetik{
+        margin-top: -10%;
+    }
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .OpenpdfBtn img{
+        width: 149px;
+        height: 85px;
+        margin-left: 15%;
+    }
+    
+    .LecturerBtns, .getEvidence{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .LecturerBtn{
+        width: 233px;
+    }
+    
+    
+    .reportDetailed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .frameVideo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #testimonials{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -40%;
+    }
+    #testimonials .container{
+        padding-top: 70%;
+        padding-left: 3%;
+        padding-right: 3%;
+        transform: skewY(4deg);
+        padding-bottom: 10%;
+    }
+    .revContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10%;
+    }
+    
+    .revQuote .tandaPetik{
+        margin-top: -20px;
+        width: 10%;
+    }
+    
+    .revQuote p, .revPerson{
+        padding-left: 3%;
+    }
+    .revContImg{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        
+      
+    }
+    .fullStory .container{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .fs{
+        margin: 15% 0 15% 0;
+    }
+    
+    .fsContent p{
+        margin-top: 30px;
+        line-height: 32px;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    
+    
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .theQuote{
+        margin-top: 18%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    
+    p a{
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #difficulty .container .quotes .tandaPetik{
+        margin-top: -2%!important;
+    }
+    .quote2{
+        width: 100%;
+    
+    }
+    
+    .fsTitle h2{
+    text-align: left;
+    }
+    
+    .revCont{
+        flex: auto;
+    }
+    
+    .revPerson{
+        padding-top: 4%;
+    }
+    .revPerson h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .revPerson p{
+        margin-top: -16px;
+    }
+    
+    .revPerson .jobPosition{
+        color: grey;
+        font-size: 12px;
+    
+    }
+    
+    
+    #joinCoup{
+        
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: 20%;
+    }
+
+    .description p{
+        font-size: 25px;
+    }
+    
+    #footerLogo{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    
+    #footeritems{
+        padding: 5% 3% 0 0%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+        
+    }
+
+    #footeritems ul li a{
+        font-size: 20px!important;
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+       
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #coupLogo{
+        width: 120%;
+    }
+
+    .nav, header, section, footer{
+        padding-left: 8%;
+        padding-right: 8%;}
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 104, 107);
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+      .HeadImg, .workshopDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .HeadImg{
+        flex-direction: unset;
+    }
+    
+    .HeadImg img{
+        width: 100%;
+    }
+    
+    .InquireShow{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .InquireShow button{
+        width: 321px;
+    }
+    
+    .galleryWorkshop{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -68%;
+       
+    }
+    
+    .galleryWorkshop .container{
+        padding-top: 105%;
+        padding-bottom: 30%;
+        transform: skewY(4deg);
+        
+    }
+    
+    .theGallery{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "first second";
+        grid-gap: 0%;
+        
+    }
+    
+    .theGalleryImg{
+        margin-bottom: 6%;
+    }
+
+    .theGalleryImg img{
+        width: 90%;
+    }
+    
+    .galleryFirstCol{
+        grid-area: first;
+        overflow: hidden;
+    }
+    
+    .gallerySecondCol{
+        grid-area: second;
+        overflow: hidden;
+    }
+    
+    .ourMission .container{
+        transform: skewY(4deg);
+        padding: 8% 0% 10% 0%;
+    }
+        
+    
+    .missions, .theMission {
+        margin-top: 15%
+    }
+    .missionDesc p{
+        margin-top: 4%;
+    }
+    
+    
+    
+    
+    
+    .brands{
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img{
+        width: 65%;
+       
+    }
+    
+    .titleDifficulty{
+      
+        margin-top: 10%;
+    }
+    .factDifficulty{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .factDifContent{
+        width: 200px;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .factImg{
+        width: 200px;
+        height: 192px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 4px;
+        width: 354px;
+        height: 60px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 530px;
+        }
+    
+    #difficulty, .fullStory, .ourMission{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    #facts1 .container, #difficulty .container{
+        transform: skewY(4deg);
+    }
+    
+    .fullStory .quotes .tandaPetik{
+        margin-top: -10%;
+    }
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .OpenpdfBtn img{
+        width: 149px;
+        height: 85px;
+        margin-left: 15%;
+    }
+    
+    .LecturerBtns, .getEvidence{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .LecturerBtn{
+        width: 233px;
+    }
+    
+    
+    .reportDetailed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .OpenpdfBtn a{
+        display: flex;
+        justify-content: center;
+    }
+    .frameVideo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #testimonials{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -50%;
+    }
+    #testimonials .container{
+        padding-top: 80%;
+        padding-left: 3%;
+        padding-right: 3%;
+        transform: skewY(4deg);
+        padding-bottom: 10%;
+    }
+    .revContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10%;
+    }
+    
+    .revQuote .tandaPetik{
+        margin-top: -20px;
+        width: 10%;
+    }
+    
+    .revQuote p, .revPerson{
+        padding-left: 3%;
+    }
+    .revContImg{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        
+      
+    }
+    .fullStory .container{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .fs{
+        margin: 15% 0 15% 0;
+    }
+    
+    .fsContent p{
+        margin-top: 30px;
+        line-height: 32px;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    
+    
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .theQuote{
+        margin-top: 18%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    
+    p a{
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #difficulty .container .quotes .tandaPetik{
+        margin-top: -2%!important;
+    }
+    .quote2{
+        width: 100%;
+    
+    }
+    
+    .fsTitle h2{
+    text-align: left;
+    }
+    
+    .revCont{
+        flex: auto;
+    }
+    
+    .revPerson{
+        padding-top: 4%;
+    }
+    .revPerson h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .revPerson p{
+        margin-top: -16px;
+    }
+    
+    .revPerson .jobPosition{
+        color: grey;
+        font-size: 12px;
+    
+    }
+    
+    
+    #joinCoup{
+        
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: 20%;
+    }
+
+    .description p{
+        font-size: 25px;
+    }
+    
+    #footerLogo{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    
+    #footeritems{
+        padding: 5% 3% 0 0%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+        
+    }
+
+    #footeritems ul li a{
+        font-size: 20px!important;
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+       
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15%;
+    }
+  
+
+        br{
+            display: none;
+        }
+        .nav, header, section, footer{
+            padding-left: 5%;
+            padding-right: 5%;}
+    
+        header .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "head ."
+                "brands .";
+        
+        }
+        p{
+            font-size: 14px;
+        }
+        h2{
+            font-size: 32px;
+        }
+    
+        h3{
+            font-size: 28px;
+        }
+        
+        button:focus {
+            outline: none!important;
+        }
+        
+        button:hover{
+            background-color: rgb(255, 104, 107);
+        }
+        button{
+            background-color: #FF4F51;
+            width: 202px;
+            height: 60px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            border: transparent;
+            border-radius: 50px;
+            margin-top: 48px;
+            letter-spacing: 2px;
+        }
+        
+        iframe{
+            height: 300px;
+        }
+        .headContent{
+            width: 100%;
+           
+          }
+        
+          .headContent h1{
+            font-size: 72px;
+            text-transform: uppercase;
+            
+          }
+        
+          .headContent p{
+             width: 470px;
+        
+          }
+        
+          .HeadImg, .workshopDesc{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .HeadImg{
+            flex-direction: unset;
+        }
+        
+        .HeadImg img{
+            width: 100%;
+        }
+        
+        .InquireShow{
+            display: flex;
+            justify-content: center;
+        
+        }
+        
+        .InquireShow button{
+            width: 321px;
+        }
+        
+        .galleryWorkshop{
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: -90%;
+           
+        }
+        
+        .galleryWorkshop .container{
+            padding-top: 130%;
+            padding-bottom: 30%;
+            transform: skewY(4deg);
+            
+        }
+        
+        .theGallery{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            
+        }
+        
+        .theGalleryImg{
+            margin-bottom: 6%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .galleryFirstCol{
+            grid-area: first;
+            overflow: hidden;
+        }
+        
+        .gallerySecondCol{
+            grid-area: second;
+            overflow: hidden;
+        }
+        
+        .ourMission .container{
+            transform: skewY(4deg);
+            padding: 8% 0% 10% 0%;
+        }
+            
+        
+        .missions, .theMission {
+            margin-top: 15%
+        }
+        .missionDesc p{
+            margin-top: 8%;
+        }
+        
+        
+        
+        
+        
+        .brands{
+            grid-area: brands;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .brands p{
+            font-size: 12px;
+        }
+        
+        .brandImages{
+            margin-top: 12px;
+            justify-content: space-evenly;
+            display: inherit;
+            
+        }
+        
+        .brandImg{
+            display: inherit;
+            align-items: center;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .brandImg img{
+            width: 65%;
+           
+        }
+        
+        .titleDifficulty{
+          
+            margin-top: 10%;
+        }
+        .factDifficulty{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .factDifContent{
+            margin-top: 10%;
+            padding-right: 8%;
+            padding-left: 8%;
+        }
+        .factImg{
+            height: 362px;
+            background-color: #181818;
+            transform: skewY(-3deg);
+        
+        }
+        
+        .coupFramework{
+            text-align: center;
+            padding-top: 10%;
+        
+            h2{
+                font-size: 32px;
+            }
+        }
+        
+        .frameworkBtn{
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 4px;
+            width: 354px;
+            height: 60px;
+        }
+        
+        #frameworkImg{
+        display: flex;
+        justify-content: center;
+        }
+        
+        #frameworkImg img{ 
+           width: 450px;
+            }
+        
+        #difficulty, .fullStory, .ourMission{
+          
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            padding-top: 5%;
+            padding-bottom: 10%;
+            margin-top: 18%;
+        }
+        
+        #facts1 .container, #difficulty .container{
+            transform: skewY(4deg);
+        }
+        
+        
+        .publicspeaking{
+            display: grid;
+            grid-template-areas: 
+            "skill buffet";
+            grid-gap: 100px;
+            font-size: 20px!important;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .skill {
+            grid-area: skill; 
+           
+        }
+        
+        .buffet h5, .skill h5{
+            font-size: 35px;
+        }
+        
+        
+        .buffet{
+            grid-area: buffet;
+        }
+        
+        
+        .head{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .OpenpdfBtn img{
+            width: 149px;
+            height: 85px;
+            margin-left: 15%;
+        }
+        
+        .LecturerBtns, .getEvidence{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .LecturerBtn{
+            width: 233px;
+        }
+        
+        
+        .reportDetailed{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .OpenpdfBtn a{
+            display: flex;
+            justify-content: center;
+        }
+        .frameVideo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        
+        #testimonials{
+            background-color: #1f1f1f;
+            transform: skewY(-4deg);
+            margin-top: -50%;
+        }
+        #testimonials .container{
+            padding-top: 80%;
+            transform: skewY(4deg);
+            padding-bottom: 10%;
+        }
+        .revContent{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10%;
+        }
+        
+        .revQuote .tandaPetik{
+            margin-top: -20px;
+            width: 20%;
+        }
+        
+        .revQuote p, .revPerson{
+            padding-left: 3%;
+        }
+        .revContImg{
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+        
+        .seperator{
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.151);
+            height: 1px;
+            transform: skewY(-4deg);
+            
+          
+        }
+        .fullStory .container{
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+        .fs{
+            margin: 15% 0 15% 0;
+        }
+        
+        .fsContent p{
+            margin-top: 60px;
+            line-height: 32px;
+        }
+        
+        .frameworkBtns2{
+            margin-top: -10%;
+            display: flex;
+            justify-content: center;
+        }
+        .frameworkBtns2 button{
+            width: 267px;
+            height: 60px;
+        
+        }
+        
+        
+        
+        .quotes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 2%!important;
+        }
+        
+        .tandaPetik{
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .theQuote{
+            margin-top: 18%;
+            width: 60%;
+            
+        }
+        
+        .theQuote p{
+            font-family: 'roboto', sans-serif;
+            font-size: 32px;
+            line-height: 48px!important;
+           
+        }
+        
+        .theQuote h5{
+            font-size: 14px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .themadness .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          
+        }
+        
+        p a{
+            color: white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        
+        .dataPrecentage{
+            margin-right: 0;
+            display: flex;
+            z-index: 1;
+            justify-content: space-between;
+            margin-top: 3%;
+        }
+        #firstLinedata {
+            text-align: right!important;
+            justify-items: right;
+            width: 330px;
+        }
+        
+        
+        #secondLinedata{
+            text-align: left!Important;
+            width: 330px;
+        }
+        
+        .dataImg{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        
+        }
+        
+        .dataImg img{
+            position: absolute;
+        
+        }
+        .stopmadness{
+            margin-top: 15%;
+        }
+        .stopmadness img{
+            width: 320px;
+        }
+        
+        #difficulty .container .quotes .tandaPetik{
+            margin-top: -2%!important;
+        }
+        .quote2{
+            width: 100%;
+        
+        }
+        
+        .fsTitle h2{
+        text-align: left;
+        }
+        
+        .revCont{
+            flex: auto;
+        }
+        
+        .revPerson{
+            padding-top: 4%;
+        }
+        .revPerson h4{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        .revPerson p{
+            margin-top: -16px;
+        }
+        
+        .revPerson .jobPosition{
+            color: grey;
+            font-size: 12px;
+        
+        }
+        
+        
+        #joinCoup{
+            
+            transform: skewY(-4deg);
+            background-color: #FF4F51;
+            background-image: url("images/Group 14.png");
+            padding-top: 10%;
+            padding-bottom: 10%;
+         
+        }
+        
+        
+        
+        #ctaJoin{
+            display: block;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        #ctaJoin h2{
+            margin: 0;
+        }
+        #ctaJoinBtn button{
+            margin-top: 25px;
+            width: 269px;
+            background-color: white;
+            color: #FF4F51;
+        }
+        #ctaJoinBtn{
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+        }
+        #joinCoup .container{
+            transform: skewY(4deg);
+        }
+        
+        footer .container{
+            display: block;
+            text-align: center;
+            padding-bottom: 5%;
+            margin-top: 20%;
+        }
+        
+        #footerLogo{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #footeritems{
+            padding: 5% 3% 0 0%;
+        }
+        
+        #footeritems ul{
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            list-style-type: none;
+            
+        }
+        
+        
+        
+        
+        li a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Anton', sans-serif;
+            text-transform: uppercase;
+        }
+}
+@media only screen and (min-width: 375px) and (max-width:559px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+
+    iframe{
+        height: 200px;
+    }
+    br{
+        display: none;
+    }
+    .nav, header, section, footer{
+        padding-left: 5%;
+        padding-right: 5%;}
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 28px!important;
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 104, 107);
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 72px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+      .HeadImg, .workshopDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .HeadImg{
+        flex-direction: unset;
+    }
+    
+    .HeadImg img{
+        width: 100%;
+    }
+    
+    .InquireShow{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .InquireShow button{
+        width: 321px;
+    }
+    
+    .galleryWorkshop{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -50%;
+       
+    }
+    .brandImagesmobile{
+        margin-top: 10%;
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileRow{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .galleryWorkshop .container{
+        padding-top: 90%;
+        padding-bottom: 30%;
+        transform: skewY(4deg);
+        
+    }
+    
+    .theGallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .theGalleryImg img{
+        width: 100%;
+    }
+    .theGalleryImg{
+        margin-bottom: 8%;
+    }
+    
+    .galleryFirstCol{
+        grid-area: first;
+        overflow: hidden;
+    }
+    
+    .gallerySecondCol{
+        grid-area: second;
+        overflow: hidden;
+    }
+    
+    .ourMission .container{
+        transform: skewY(4deg);
+        padding: 8% 0% 10% 0%;
+    }
+        
+    
+    .missions, .theMission {
+        margin-top: 15%
+    }
+    .missionDesc p{
+        margin-top: 8%;
+    }
+    
+    
+    
+    
+    
+    .brands{
+
+        display: none;
+        
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img{
+        width: 65%;
+       
+    }
+    
+    .titleDifficulty{
+      
+        margin-top: 10%;
+    }
+    .factDifficulty{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .factDifContent{
+        margin-top: 10%;
+        
+    }
+    .factImg{
+        height: 300px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+      
+       
+        letter-spacing: 2px;
+        width: 300px;
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 320px;  
+        }
+    
+    #difficulty, .fullStory, .ourMission{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 18%;
+    }
+    
+    #facts1 .container, #difficulty .container{
+        transform: skewY(4deg);
+    }
+    
+    
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .OpenpdfBtn img{
+        width: 120px;
+        margin-left: 15%;
+    }
+    
+    .LecturerBtns, .getEvidence{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .LecturerBtn{
+        width: 233px;
+    }
+    
+    
+    .reportDetailed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .OpenpdfBtn a{
+        display: flex;
+        justify-content: center;
+    }
+    .frameVideo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #testimonials{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -100%;
+    }
+
+
+    #testimonials .container{
+        padding-top: 140%;
+        transform: skewY(4deg);
+        padding-bottom: 10%;
+    }
+
+    .mobileRow:last-child .brandImg img{
+        width: 40%;
+    }
+
+    .revContent{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    .revQuote{
+        display: flex;
+        justify-content: center;
+    }
+
+    .revCont{
+        margin-top: 20%;
+    }
+    .revQuote .tandaPetik{
+        margin-top: -8px;
+        width: 20%;
+    }
+    
+    .revQuote p, .revPerson{
+        padding-left: 3%;
+    }
+    .revContImg{
+      
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        
+      
+    }
+
+
+    .fullStory .container{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .fullStory .container .quotes .quote2 p{
+        font-size: 22px;
+        margin-top: 30%;
+        line-height: 35px!important;
+    }
+    .fullStory .container .quotes .tandaPetik{
+        margin-top: -20%;
+        width: 40%;
+    }
+    .fs{
+        margin: 15% 0 15% 0;
+    }
+    
+    .fsContent p{
+        margin-top: 30px;
+        line-height: 32px;
+    }
+    
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+    
+    }
+    
+    
+    
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .theQuote{
+        margin-top: 18%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    
+    p a{
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #difficulty .container .quotes .tandaPetik{
+        margin-top: -2%!important;
+    }
+    .quote2{
+        width: 100%;
+    
+    }
+    
+    .fsTitle h2{
+    text-align: left;
+    }
+    
+    .revCont{
+        flex: auto;
+    }
+    
+    .revPerson{
+        padding-top: 4%;
+    }
+    .revPerson h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .revPerson p{
+        margin-top: -16px;
+    }
+    
+    .revPerson .jobPosition{
+        color: grey;
+        font-size: 12px;
+    
+    }
+    
+    
+    #joinCoup{
+        
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: 20%;
+    }
+    
+    .numberPrecentage h3{
+    font-size: 45px;
+    }
+    
+    .description p{
+        font-size: 25px;
+    }
+    
+    #footerLogo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+     width: 60%;
+    }
+    #footeritems{
+     padding: 5% 15% 0 0%;
+    }
+    
+    #footeritems ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     text-decoration: none;
+     list-style-type: none;
+     
+     
+    }
+    
+    #footeritems ul li a{
+     font-size: 16px!important;
+    }
+    
+    #creatorCopyright p{
+     font-size: 14px;
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+       
+    }
+    }
+@media only screen and (min-width: 320px) and (max-width:374px){
+    .nav-items{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .sideBarIcon, .mobileItems{
+        display: flex!important;
+    }
+
+    .navHead{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24%;
+    }
+    #coupLogo{
+        width: 120%;
+    }
+
+    iframe{
+        height: 170px;
+    }
+    br{
+        display: none;
+    }
+    .nav, header, section, footer{
+        padding-left: 5%;
+        padding-right: 5%;}
+
+    header .container{
+        display: grid;
+        
+        grid-template-areas: 
+            "head ."
+            "brands .";
+    
+    }
+  
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 104, 107);
+    }
+    button{
+        background-color: #FF4F51;
+        width: 202px;
+        height: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: transparent;
+        border-radius: 50px;
+        margin-top: 48px;
+        letter-spacing: 2px;
+    }
+    
+    .headContent{
+        width: 100%;
+       
+      }
+    
+      .headContent h1{
+        font-size: 62px;
+        text-transform: uppercase;
+        
+      }
+    
+      .headContent p{
+         width: 470px;
+    
+      }
+    
+      .HeadImg, .workshopDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .HeadImg{
+        flex-direction: unset;
+    }
+    
+    .HeadImg img{
+        width: 100%;
+    }
+    
+    .InquireShow{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .InquireShow button{
+        width: 321px;
+    }
+    
+    .galleryWorkshop{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -50%;
+       
+    }
+    .brandImagesmobile{
+        margin-top: 10%;
+        grid-area: brands;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileRow{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .galleryWorkshop .container{
+        padding-top: 90%;
+        padding-bottom: 30%;
+        transform: skewY(4deg);
+        
+    }
+    
+    .theGallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .theGalleryImg img{
+        width: 100%;
+    }
+    
+    .theGalleryImg{
+        margin-bottom: 8%;
+    }
+    
+    .galleryFirstCol{
+        grid-area: first;
+        overflow: hidden;
+    }
+    
+    .gallerySecondCol{
+        grid-area: second;
+        overflow: hidden;
+    }
+    .fullStory .container .quotes .quote2 p{
+        font-size: 22px;
+        margin-top: 30%;
+        line-height: 35px!important;
+    }
+    .fullStory .container .quotes .tandaPetik{
+        margin-top: -40%;
+        width: 40%;
+    }
+    .ourMission .container{
+        transform: skewY(4deg);
+        padding: 8% 0% 10% 0%;
+    }
+        
+    
+    .missions, .theMission {
+        margin-top: 15%
+    }
+    .missionDesc p{
+        margin-top: 8%;
+    }
+    
+    
+    
+    
+    
+    .brands{
+
+        display: none;
+        
+    }
+    
+    .brands p{
+        font-size: 12px;
+    }
+    
+    .brandImages{
+        margin-top: 12px;
+        justify-content: space-evenly;
+        display: inherit;
+        
+    }
+    
+    .brandImg{
+        display: inherit;
+        align-items: center;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandImg img{
+        width: 65%;
+       
+    }
+    
+    .titleDifficulty{
+      
+        margin-top: 10%;
+    }
+    .factDifficulty{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .factDifContent{
+        margin-top: 10%;
+        
+    }
+    .factImg{
+        height: 300px;
+        background-color: #181818;
+        transform: skewY(-3deg);
+    
+    }
+    
+    .coupFramework{
+        text-align: center;
+        padding-top: 10%;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+    
+    .frameworkBtn{
+      
+       
+        letter-spacing: 1px;
+        width: 270px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    .frameworkBtn:last-child{
+        margin-top: 6%;
+    }
+    
+    #frameworkImg{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #frameworkImg img{ 
+       width: 100%;
+        }
+    
+    #difficulty, .fullStory, .ourMission{
+      
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 18%;
+    }
+    
+    #facts1 .container, #difficulty .container{
+        transform: skewY(4deg);
+    }
+    
+    
+    .publicspeaking{
+        display: grid;
+        grid-template-areas: 
+        "skill buffet";
+        grid-gap: 100px;
+        font-size: 20px!important;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .skill {
+        grid-area: skill; 
+       
+    }
+    
+    .buffet h5, .skill h5{
+        font-size: 35px;
+    }
+    
+    
+    .buffet{
+        grid-area: buffet;
+    }
+    
+    
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .OpenpdfBtn img{
+        width: 120px;
+        margin-left: 15%;
+    }
+    
+    .LecturerBtns, .getEvidence{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .LecturerBtn{
+        width: 233px;
+    }
+    
+    
+    .reportDetailed{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .OpenpdfBtn a{
+       
+        display: flex;
+        justify-content: center;
+    }
+    .frameVideo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #testimonials{
+        background-color: #1f1f1f;
+        transform: skewY(-4deg);
+        margin-top: -120%;
+    }
+
+
+    #testimonials .container{
+        padding-top: 170%;
+        transform: skewY(4deg);
+        padding-bottom: 10%;
+    }
+
+    .mobileRow:last-child .brandImg img{
+        width: 40%;
+    }
+
+    .revContent{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    .revQuote{
+        display: flex;
+        justify-content: center;
+    }
+
+    .revCont{
+        margin-top: 20%;
+    }
+    .revQuote .tandaPetik{
+        margin-top: -8px;
+        width: 20%;
+    }
+    
+    .revQuote p, .revPerson{
+        padding-left: 3%;
+    }
+    .revContImg{
+      
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .seperator{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        height: 1px;
+        transform: skewY(-4deg);
+        
+      
+    }
+    .fullStory .container{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .fs{
+        margin: 15% 0 15% 0;
+    }
+    
+    .fsContent p{
+        margin-top: 30px;
+        line-height: 32px;
+    }
+    
+    .frameworkBtns2{
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    .frameworkBtns2 button{
+        width: 267px;
+        height: 60px;
+        font-size: 14px!important;
+        letter-spacing: 1px;
+    }
+    
+    
+    
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2%!important;
+    }
+    
+    .tandaPetik{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .theQuote{
+        margin-top: 18%;
+        width: 60%;
+        
+    }
+    
+    .theQuote p{
+        font-family: 'roboto', sans-serif;
+        font-size: 32px;
+        line-height: 48px!important;
+       
+    }
+    
+    .theQuote h5{
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .themadness .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      
+    }
+    
+    p a{
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+    .dataPrecentage{
+        margin-right: 0;
+        display: flex;
+        z-index: 1;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    #firstLinedata {
+        text-align: right!important;
+        justify-items: right;
+        width: 330px;
+    }
+    
+    
+    #secondLinedata{
+        text-align: left!Important;
+        width: 330px;
+    }
+    
+    .dataImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    
+    }
+    
+    .dataImg img{
+        position: absolute;
+    
+    }
+    .stopmadness{
+        margin-top: 15%;
+    }
+    .stopmadness img{
+        width: 320px;
+    }
+    
+    #difficulty .container .quotes .tandaPetik{
+        margin-top: -2%!important;
+    }
+    .quote2{
+        width: 100%;
+    
+    }
+    
+    .fsTitle h2{
+    text-align: left;
+    }
+    
+    .revCont{
+        flex: auto;
+    }
+    
+    .revPerson{
+        padding-top: 4%;
+    }
+    .revPerson h4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .revPerson p{
+        margin-top: -16px;
+    }
+    
+    .revPerson .jobPosition{
+        color: grey;
+        font-size: 12px;
+    
+    }
+    
+    
+    #joinCoup{
+        
+        transform: skewY(-4deg);
+        background-color: #FF4F51;
+        background-image: url("images/Group 14.png");
+        padding-top: 10%;
+        padding-bottom: 10%;
+     
+    }
+    
+    
+    
+    #ctaJoin{
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    #ctaJoin h2{
+        margin: 0;
+    }
+    #ctaJoinBtn button{
+        margin-top: 25px;
+        width: 269px;
+        background-color: white;
+        color: #FF4F51;
+    }
+    #ctaJoinBtn{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      
+    }
+    #joinCoup .container{
+        transform: skewY(4deg);
+    }
+    
+    footer .container{
+        display: block;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: 20%;
+    }
+
+    .description p{
+        font-size: 25px;
+    }
+    
+    #footerLogo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footerLogo img{
+        width: 60%;
+    }
+    #footeritems{
+        padding: 5% 18% 0 0%;
+    }
+    
+    #footeritems ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style-type: none;
+        
+        
+    }
+
+    #footeritems ul li a{
+        font-size: 16px!important;
+    }
+    
+    #creatorCopyright p{
+        font-size: 14px;
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+       
+    }
+}
+
+
